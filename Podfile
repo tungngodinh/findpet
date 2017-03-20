@@ -11,5 +11,6 @@ target 'FindPet' do
     pod 'SDWebImage'
     pod 'SVProgressHUD'
     pod 'SVPullToRefresh'
+    pod 'RKTabView'
     
 end

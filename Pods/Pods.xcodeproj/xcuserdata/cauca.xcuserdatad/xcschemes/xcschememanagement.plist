@@ -39,6 +39,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>RKTabView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SDWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -57,7 +62,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>10E0CEA04A1094F4EC2789AFF6943E1E</key>
+		<key>01F1E76B3F2F21BA14C2B8EB5689DD22</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1456D5570B88FD8F1AF476DCDCDC8940</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -67,22 +77,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>47758BBD050DEE5DE6AD5F7A19FDCB87</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>518E902317EA711A42D1FC0BA7709A91</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>5437890023F30CA85DFCA260CA914D48</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5E5ABC48610D0A316E5D9A57AAA36A24</key>
+		<key>6E858CC4EDEBB255EF3337B2B9452F79</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>78D29FDDA61F65D7244C402E10584DB5</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>97AF9AC86065D271363356FB28912AB6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -98,11 +113,6 @@
 			<true/>
 		</dict>
 		<key>A0576695436CB184F1B271DD04B660ED</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F671FE2E77E219A5A1A4AEF34CFE81E8</key>
 		<dict>
 			<key>primary</key>
 			<true/>

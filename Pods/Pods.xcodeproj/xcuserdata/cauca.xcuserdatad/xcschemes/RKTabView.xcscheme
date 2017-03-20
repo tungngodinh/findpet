@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '1456D5570B88FD8F1AF476DCDCDC8940'
-               BlueprintName = 'SVProgressHUD'
+               BlueprintIdentifier = '01F1E76B3F2F21BA14C2B8EB5689DD22'
+               BlueprintName = 'RKTabView'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libSVProgressHUD.a'>
+               BuildableName = 'libRKTabView.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
