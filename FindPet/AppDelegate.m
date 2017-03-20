@@ -12,14 +12,15 @@
 
 @interface AppDelegate ()
 
+@property (nonatomic, strong) UIStoryboard *mainStoryBoard;
+
 @end
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    self.window.rootViewController = self.tabbarController;
+    self.window.rootViewController = self.drawerController;
     return YES;
 }
 
@@ -52,23 +53,22 @@
 
 - (UITabBarController *)tabbarController {
     if (!_tabbarController) {
-        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
         FAKIonIcons *icon = [FAKIonIcons iosPaperOutlineIconWithSize:35];
         CGSize iconsize = CGSizeMake(35, 35);
         
-        UIViewController *home = [storyboard instantiateViewControllerWithIdentifier:@"FPHomeController"];
+        UIViewController *home = [self.mainStoryBoard instantiateViewControllerWithIdentifier:@"FPHomeController"];
         home.tabBarItem.image = [icon imageWithSize:iconsize];
         
         icon = [FAKIonIcons iosPeopleOutlineIconWithSize:35];
-        UIViewController *some = [storyboard instantiateViewControllerWithIdentifier:@"FPSomeUsersController"];
+        UIViewController *some = [self.mainStoryBoard instantiateViewControllerWithIdentifier:@"FPSomeUsersController"];
         some.tabBarItem.image = [icon imageWithSize:iconsize];
         
         icon = [FAKIonIcons iosBriefcaseOutlineIconWithSize:35];
-        UIViewController *booth = [storyboard instantiateViewControllerWithIdentifier:@"FPBoothController"];
+        UIViewController *booth = [self.mainStoryBoard instantiateViewControllerWithIdentifier:@"FPBoothController"];
         booth.tabBarItem.image = [icon imageWithSize:iconsize];
         
         icon = [FAKIonIcons iosPawOutlineIconWithSize:35];
-        UIViewController *mypet = [storyboard instantiateViewControllerWithIdentifier:@"FPMyPetsController"];
+        UIViewController *mypet = [self.mainStoryBoard instantiateViewControllerWithIdentifier:@"FPMyPetsController"];
         mypet.tabBarItem.image = [icon imageWithSize:iconsize];
         
         _tabbarController = [[UITabBarController alloc] init];
@@ -76,6 +76,25 @@
         [_tabbarController setViewControllers:@[home, some, booth, mypet]];
     }
     return _tabbarController;
+}
+
+- (MMDrawerController *)drawerController {
+    if (!_drawerController) {
+        UIViewController *leftMenu = [self.mainStoryBoard instantiateViewControllerWithIdentifier:@"FPLeftMenuController"];
+        _drawerController = [[MMDrawerController alloc] initWithCenterViewController:self.tabbarController leftDrawerViewController:leftMenu];
+        _drawerController.openDrawerGestureModeMask = MMOpenDrawerGestureModeAll;
+        _drawerController.closeDrawerGestureModeMask = MMCloseDrawerGestureModeAll;
+        _drawerController.showsShadow = NO;
+    }
+    
+    return _drawerController;
+}
+
+- (UIStoryboard *)mainStoryBoard {
+    if (!_mainStoryBoard) {
+        _mainStoryBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    }
+    return _mainStoryBoard;
 }
 
 @end
