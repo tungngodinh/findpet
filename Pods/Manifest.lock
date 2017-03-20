@@ -41,6 +41,7 @@ PODS:
     - SDWebImage/Core (= 4.0.0)
   - SDWebImage/Core (4.0.0)
   - SVProgressHUD (2.1.2)
+  - SVPullToRefresh (0.4.1)
 
 DEPENDENCIES:
   - AFNetworking
@@ -49,6 +50,7 @@ DEPENDENCIES:
   - LSBLEManager (~> 1.0.0)
   - SDWebImage
   - SVProgressHUD
+  - SVPullToRefresh
 
 EXTERNAL SOURCES:
   FontAwesomeKit:
@@ -66,7 +68,8 @@ SPEC CHECKSUMS:
   LSBLEManager: 9ea1dd592ad6c6663a7f396964170f6dc7614ae9
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
 
-PODFILE CHECKSUM: af2124e011c7f6dd0d1d6c8019922c6b69ac9167
+PODFILE CHECKSUM: 248ece88b10489b1bea82ee65a2cd95ad3e169b8
 
 COCOAPODS: 1.2.0
