@@ -4,6 +4,7 @@
 target 'FindPet' do
     pod 'AFNetworking'
     pod 'DZNEmptyDataSet'
+    pod 'Masonry'
     pod 'LSBLEManager', '~> 1.0.0'
     pod 'FontAwesomeKit', :git => 'https://github.com/PrideChung/FontAwesomeKit.git'
     pod 'SDWebImage'
