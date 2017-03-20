@@ -6,6 +6,7 @@
 //  Copyright © 2017 tungnd. All rights reserved.
 //
 
+
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
@@ -47,5 +48,10 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+- (void)initView {
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UINavigationController *mainNavi = [storyboard instantiateViewControllerWithIdentifier:@"FPHomeNavigationController"];
+    
+}
 
 @end

@@ -7,25 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53417D921E73EC2F00AD2337 /* FPHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53417D911E73EC2F00AD2337 /* FPHomeController.m */; };
+		53417D941E73F99D00AD2337 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53417D931E73F99D00AD2337 /* UIKit.framework */; };
+		53417D961E7400EC00AD2337 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53417D951E7400EC00AD2337 /* CoreBluetooth.framework */; };
+		53A775251E7D366F002F1437 /* FPSomeUsersController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A775241E7D366F002F1437 /* FPSomeUsersController.m */; };
+		53A775281E7D36B6002F1437 /* FPBoothController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A775271E7D36B6002F1437 /* FPBoothController.m */; };
+		53A7752B1E7D36C4002F1437 /* FPMyPetsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A7752A1E7D36C4002F1437 /* FPMyPetsController.m */; };
 		53AEBFC11E73E5970089E674 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AEBFC01E73E5970089E674 /* main.m */; };
 		53AEBFC41E73E5970089E674 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AEBFC31E73E5970089E674 /* AppDelegate.m */; };
-		53AEBFC71E73E5970089E674 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AEBFC61E73E5970089E674 /* ViewController.m */; };
 		53AEBFCA1E73E5970089E674 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53AEBFC81E73E5970089E674 /* Main.storyboard */; };
 		53AEBFCC1E73E5970089E674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53AEBFCB1E73E5970089E674 /* Assets.xcassets */; };
 		53AEBFCF1E73E5970089E674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53AEBFCD1E73E5970089E674 /* LaunchScreen.storyboard */; };
+		53DA07211E7A6C240092563A /* FPLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DA07201E7A6C240092563A /* FPLoginController.m */; };
+		CD195D837ADD66E5AEE8BFAC /* libPods-FindPet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB4CE427C4843C78FFED269 /* libPods-FindPet.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28C2D760061AE42FB0F38A0A /* Pods-FindPet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindPet.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindPet/Pods-FindPet.release.xcconfig"; sourceTree = "<group>"; };
+		4192BD175514A3B34B2E07B1 /* Pods-FindPet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindPet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindPet/Pods-FindPet.debug.xcconfig"; sourceTree = "<group>"; };
+		53417D901E73EC2F00AD2337 /* FPHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPHomeController.h; sourceTree = "<group>"; };
+		53417D911E73EC2F00AD2337 /* FPHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPHomeController.m; sourceTree = "<group>"; };
+		53417D931E73F99D00AD2337 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		53417D951E7400EC00AD2337 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		53417D971E7400FA00AD2337 /* FindPet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FindPet.entitlements; sourceTree = "<group>"; };
+		53A775231E7D366F002F1437 /* FPSomeUsersController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPSomeUsersController.h; sourceTree = "<group>"; };
+		53A775241E7D366F002F1437 /* FPSomeUsersController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPSomeUsersController.m; sourceTree = "<group>"; };
+		53A775261E7D36B6002F1437 /* FPBoothController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPBoothController.h; sourceTree = "<group>"; };
+		53A775271E7D36B6002F1437 /* FPBoothController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPBoothController.m; sourceTree = "<group>"; };
+		53A775291E7D36C4002F1437 /* FPMyPetsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPMyPetsController.h; sourceTree = "<group>"; };
+		53A7752A1E7D36C4002F1437 /* FPMyPetsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPMyPetsController.m; sourceTree = "<group>"; };
 		53AEBFBC1E73E5970089E674 /* FindPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53AEBFC01E73E5970089E674 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		53AEBFC21E73E5970089E674 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		53AEBFC31E73E5970089E674 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		53AEBFC51E73E5970089E674 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		53AEBFC61E73E5970089E674 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		53AEBFC91E73E5970089E674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		53AEBFCB1E73E5970089E674 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53AEBFCE1E73E5970089E674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53AEBFD01E73E5970089E674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53DA071F1E7A6C240092563A /* FPLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPLoginController.h; sourceTree = "<group>"; };
+		53DA07201E7A6C240092563A /* FPLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPLoginController.m; sourceTree = "<group>"; };
+		5AB4CE427C4843C78FFED269 /* libPods-FindPet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FindPet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +54,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53417D961E7400EC00AD2337 /* CoreBluetooth.framework in Frameworks */,
+				53417D941E73F99D00AD2337 /* UIKit.framework in Frameworks */,
+				CD195D837ADD66E5AEE8BFAC /* libPods-FindPet.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1284FB867044CD05340FA879 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53417D951E7400EC00AD2337 /* CoreBluetooth.framework */,
+				53417D931E73F99D00AD2337 /* UIKit.framework */,
+				5AB4CE427C4843C78FFED269 /* libPods-FindPet.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53417D8B1E73EB6100AD2337 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				53417D901E73EC2F00AD2337 /* FPHomeController.h */,
+				53417D911E73EC2F00AD2337 /* FPHomeController.m */,
+				53DA071F1E7A6C240092563A /* FPLoginController.h */,
+				53DA07201E7A6C240092563A /* FPLoginController.m */,
+				53A775231E7D366F002F1437 /* FPSomeUsersController.h */,
+				53A775241E7D366F002F1437 /* FPSomeUsersController.m */,
+				53A775261E7D36B6002F1437 /* FPBoothController.h */,
+				53A775271E7D36B6002F1437 /* FPBoothController.m */,
+				53A775291E7D36C4002F1437 /* FPMyPetsController.h */,
+				53A7752A1E7D36C4002F1437 /* FPMyPetsController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		53417D8C1E73EB6E00AD2337 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		53AEBFB31E73E5970089E674 = {
 			isa = PBXGroup;
 			children = (
 				53AEBFBE1E73E5970089E674 /* FindPet */,
 				53AEBFBD1E73E5970089E674 /* Products */,
+				EEC38147312FC9D9E9BB8841 /* Pods */,
+				1284FB867044CD05340FA879 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +118,16 @@
 		53AEBFBE1E73E5970089E674 /* FindPet */ = {
 			isa = PBXGroup;
 			children = (
+				53417D971E7400FA00AD2337 /* FindPet.entitlements */,
 				53AEBFC21E73E5970089E674 /* AppDelegate.h */,
 				53AEBFC31E73E5970089E674 /* AppDelegate.m */,
-				53AEBFC51E73E5970089E674 /* ViewController.h */,
-				53AEBFC61E73E5970089E674 /* ViewController.m */,
 				53AEBFC81E73E5970089E674 /* Main.storyboard */,
 				53AEBFCB1E73E5970089E674 /* Assets.xcassets */,
 				53AEBFCD1E73E5970089E674 /* LaunchScreen.storyboard */,
 				53AEBFD01E73E5970089E674 /* Info.plist */,
+				53417D8C1E73EB6E00AD2337 /* Views */,
+				53DF45E41E7AA0D40099E884 /* Helpers */,
+				53417D8B1E73EB6100AD2337 /* Controllers */,
 				53AEBFBF1E73E5970089E674 /* Supporting Files */,
 			);
 			path = FindPet;
@@ -79,6 +141,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		53DF45E41E7AA0D40099E884 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EEC38147312FC9D9E9BB8841 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4192BD175514A3B34B2E07B1 /* Pods-FindPet.debug.xcconfig */,
+				28C2D760061AE42FB0F38A0A /* Pods-FindPet.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 53AEBFD31E73E5970089E674 /* Build configuration list for PBXNativeTarget "FindPet" */;
 			buildPhases = (
+				C6E00C7A78A8E80FB8695CA9 /* [CP] Check Pods Manifest.lock */,
 				53AEBFB81E73E5970089E674 /* Sources */,
 				53AEBFB91E73E5970089E674 /* Frameworks */,
 				53AEBFBA1E73E5970089E674 /* Resources */,
+				763400BEB1737C6493A02962 /* [CP] Embed Pods Frameworks */,
+				E9845ACBE37616722E83DC4B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -105,13 +186,25 @@
 		53AEBFB41E73E5970089E674 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = FP;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = tungnd;
 				TargetAttributes = {
 					53AEBFBB1E73E5970089E674 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = MQAGCVCE9F;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 0;
+							};
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -146,12 +239,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		763400BEB1737C6493A02962 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindPet/Pods-FindPet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6E00C7A78A8E80FB8695CA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E9845ACBE37616722E83DC4B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindPet/Pods-FindPet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		53AEBFB81E73E5970089E674 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53AEBFC71E73E5970089E674 /* ViewController.m in Sources */,
+				53417D921E73EC2F00AD2337 /* FPHomeController.m in Sources */,
+				53A7752B1E7D36C4002F1437 /* FPMyPetsController.m in Sources */,
+				53DA07211E7A6C240092563A /* FPLoginController.m in Sources */,
+				53A775281E7D36B6002F1437 /* FPBoothController.m in Sources */,
+				53A775251E7D366F002F1437 /* FPSomeUsersController.m in Sources */,
 				53AEBFC41E73E5970089E674 /* AppDelegate.m in Sources */,
 				53AEBFC11E73E5970089E674 /* main.m in Sources */,
 			);
@@ -269,6 +414,7 @@
 		};
 		53AEBFD41E73E5970089E674 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4192BD175514A3B34B2E07B1 /* Pods-FindPet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MQAGCVCE9F;
@@ -276,11 +422,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.citigo.FindPet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9fac783d-172f-47d4-8762-7f6d26dc6aed";
+				PROVISIONING_PROFILE_SPECIFIER = "KVMobile Development Apps Profile";
 			};
 			name = Debug;
 		};
 		53AEBFD51E73E5970089E674 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28C2D760061AE42FB0F38A0A /* Pods-FindPet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MQAGCVCE9F;
@@ -288,6 +437,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.citigo.FindPet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9fac783d-172f-47d4-8762-7f6d26dc6aed";
+				PROVISIONING_PROFILE_SPECIFIER = "KVMobile Development Apps Profile";
 			};
 			name = Release;
 		};
@@ -310,6 +461,7 @@
 				53AEBFD51E73E5970089E674 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
