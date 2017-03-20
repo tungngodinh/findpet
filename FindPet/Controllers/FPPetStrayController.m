@@ -27,7 +27,7 @@
 }
 
 - (NSString *)titleForPagerTabStripViewController:(XLPagerTabStripViewController *)pagerTabStripViewController {
-    return @"Pet lạc";
+    return @"DS PET LẠC";
 }
 
 /*

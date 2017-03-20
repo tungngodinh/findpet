@@ -27,7 +27,7 @@
 }
 
 - (NSString *)titleForPagerTabStripViewController:(XLPagerTabStripViewController *)pagerTabStripViewController {
-    return @"Top Like";
+    return @"TOP LIKE";
 }
 
 /*

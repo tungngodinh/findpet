@@ -7,6 +7,8 @@
 //
 
 #import <LSBLEManager/LSBluetoothManager.h>
+#import <FontAwesomeKit/FontAwesomeKit.h>
+#import <MMDrawerController/UIViewController+MMDrawerController.h>
 
 #import "FPHomeController.h"
 #import "AppDelegate.h"
@@ -32,6 +34,19 @@
 
 - (void)configUI {
     
+    self.title = @"Tin tức";
+    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
+    
+    FAKIonIcons *icon = [FAKIonIcons naviconIconWithSize:30];
+    [icon setAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
+    UIBarButtonItem *menuButton = [[UIBarButtonItem alloc] initWithImage:[icon imageWithSize:CGSizeMake(30, 30)] style:UIBarButtonItemStylePlain target:self action:@selector(onMenuButtonTapped)];
+    self.navigationItem.leftBarButtonItem = menuButton;
+    
+    icon = [FAKIonIcons iosSearchIconWithSize:30];
+    [icon setAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
+    UIBarButtonItem *searchButton = [[UIBarButtonItem alloc] initWithImage:[icon imageWithSize:CGSizeMake(30, 30)] style:UIBarButtonItemStylePlain target:self action:@selector(onSearchButtonTapped)];
+    self.navigationItem.rightBarButtonItem = searchButton;
+    
     self.buttonBarView.backgroundColor = FPBackgroundColor;
     self.buttonBarView.shouldCellsFillAvailableWidth = YES;
     self.buttonBarView.selectedBar.backgroundColor = [UIColor whiteColor];
@@ -39,8 +54,8 @@
     self.buttonBarView.selectedBarAlignment = XLSelectedBarAlignmentCenter;
     
     self.changeCurrentIndexBlock = ^(XLButtonBarViewCell* oldCell, XLButtonBarViewCell *newCell, BOOL animated){
-        oldCell.label.font = [UIFont systemFontOfSize:16.0f weight:UIFontWeightLight];
-        newCell.label.font = [UIFont systemFontOfSize:16.0f weight:UIFontWeightRegular];
+        oldCell.label.font = [UIFont systemFontOfSize:12.0f weight:UIFontWeightLight];
+        newCell.label.font = [UIFont systemFontOfSize:12.0f weight:UIFontWeightRegular];
         
         [oldCell.label setTextColor:[UIColor colorWithWhite:1 alpha:0.6]];
         [newCell.label setTextColor:[UIColor whiteColor]];
@@ -60,6 +75,15 @@
     };
 }
 
+- (void)onMenuButtonTapped {
+    [self.mm_drawerController toggleDrawerSide:MMDrawerSideLeft animated:YES completion:nil];
+    
+}
+
+- (void)onSearchButtonTapped {
+
+}
+
 #pragma mark - XLPagerTabStripViewControllerDelegate, XLPagerTabStripViewControllerDataSource
 
 - (NSArray *)childViewControllersForPagerTabStripViewController:(XLPagerTabStripViewController *)pagerTabStripViewController {
@@ -70,8 +94,6 @@
     UIViewController *petStrayController = [storyboard instantiateViewControllerWithIdentifier:@"FPPetStrayController"];
     return @[newController, topLikeController, topShareController, petStrayController];
 }
-
-
 
 /*
 #pragma mark - Navigation
