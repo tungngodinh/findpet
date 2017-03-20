@@ -2,8 +2,9 @@
 # platform :ios, '9.0'
 
 target 'FindPet' do
-    pod 'LSBLEManager', '~> 1.0.0'
+    pod 'AFNetworking'
     pod 'DZNEmptyDataSet'
+    pod 'LSBLEManager', '~> 1.0.0'
     pod 'FontAwesomeKit', :git => 'https://github.com/PrideChung/FontAwesomeKit.git'
     pod 'SVProgressHUD'
     pod 'SDWebImage'

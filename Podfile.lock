@@ -1,4 +1,19 @@
 PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
   - DZNEmptyDataSet (1.8.1)
   - FontAwesomeKit (2.2.1):
     - FontAwesomeKit/Core (= 2.2.1)
@@ -28,6 +43,7 @@ PODS:
   - SVProgressHUD (2.1.2)
 
 DEPENDENCIES:
+  - AFNetworking
   - DZNEmptyDataSet
   - FontAwesomeKit (from `https://github.com/PrideChung/FontAwesomeKit.git`)
   - LSBLEManager (~> 1.0.0)
@@ -44,12 +60,13 @@ CHECKOUT OPTIONS:
     :git: https://github.com/PrideChung/FontAwesomeKit.git
 
 SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   FontAwesomeKit: 3614979b3dbb0ec3f7fac1bd760b91f66c31db67
   LSBLEManager: 9ea1dd592ad6c6663a7f396964170f6dc7614ae9
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
 
-PODFILE CHECKSUM: ce3edf912292f2ef315989a2752c2ff02174a387
+PODFILE CHECKSUM: af2124e011c7f6dd0d1d6c8019922c6b69ac9167
 
 COCOAPODS: 1.2.0

@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>DZNEmptyDataSet.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,12 +42,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>33F6D83248A35D2A53E70048B67CBBB9</key>
+		<key>0E053A21CB12B09792E1872E4F8D3795</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>36E7D858D1A17D68CE91BBE3DC87EC65</key>
+		<key>33F6D83248A35D2A53E70048B67CBBB9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,17 +57,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>9E033EDB5EC0819481B0546434FA577B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>A0576695436CB184F1B271DD04B660ED</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CAE26F32928D5B29E850B82065E399A9</key>
+		<key>B9C61586EE5F1E7FD02B7D879124159C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DBB58298D531F3C96382725D4C9E0368</key>
+		<key>D1F2785B7139BA15BA4C6CDF404DD3C6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
