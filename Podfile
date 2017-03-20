@@ -12,5 +12,6 @@ target 'FindPet' do
     pod 'SVProgressHUD'
     pod 'SVPullToRefresh'
     pod 'XLPagerTabStrip', '~> 3.0'
+    pod 'UITextView+Placeholder', '~> 1.2'
     
 end

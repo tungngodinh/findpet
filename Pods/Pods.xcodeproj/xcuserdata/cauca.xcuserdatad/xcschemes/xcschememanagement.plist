@@ -54,6 +54,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>UITextView+Placeholder.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>XLPagerTabStrip-XLPagerTabStrip.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -67,17 +72,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>302157405CEA6A24AC2F8F03A186B1F7</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>33F6D83248A35D2A53E70048B67CBBB9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>48AD5AD58BCDFF255174013468323E66</key>
+		<key>352E224F1AB6E3724CF5397C9E31C5D9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4AC3F8E76C0DAFF65E1856786BBF1424</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -92,7 +97,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>87EAEBBA43D8D18A7EB752E7071D3D24</key>
+		<key>8AD26D7625736999AF40867721434839</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -112,17 +117,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A89CF71D90841AAE81912E263FE3D903</key>
+		<key>A42C7527DB475F65BC235F005D2CECBE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EF6A8AB9D104C54BEEC21FCEE7F19334</key>
+		<key>ACA0BC960C08E90CA72DC70D44E1A600</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FAB3FCD3813A822F9B1F4890EA8D5E5D</key>
+		<key>DE930EF0FC151D8A115BEA736BF4DB3D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FCCD50905D5BE36467DE6E2663D56ECB</key>
 		<dict>
 			<key>primary</key>
 			<true/>

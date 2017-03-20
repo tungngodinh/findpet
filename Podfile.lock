@@ -55,6 +55,7 @@ PODS:
   - SDWebImage/Core (4.0.0)
   - SVProgressHUD (2.1.2)
   - SVPullToRefresh (0.4.1)
+  - UITextView+Placeholder (1.2.0)
   - XLPagerTabStrip (3.0.0)
 
 DEPENDENCIES:
@@ -67,6 +68,7 @@ DEPENDENCIES:
   - SDWebImage
   - SVProgressHUD
   - SVPullToRefresh
+  - UITextView+Placeholder (~> 1.2)
   - XLPagerTabStrip (~> 3.0)
 
 EXTERNAL SOURCES:
@@ -88,8 +90,9 @@ SPEC CHECKSUMS:
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
   SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
+  UITextView+Placeholder: 77680995fcdd07c3f52ec92fe1150874a2ac89ff
   XLPagerTabStrip: 0f9f94246c84e7cb60a06ca435da68ac75c8b56e
 
-PODFILE CHECKSUM: bbf8412c3e1932f61500d2cf9e12d8fbd886b723
+PODFILE CHECKSUM: 39b2028cd85a3ebe73d68f1b84047ea021d77294
 
 COCOAPODS: 1.2.0
