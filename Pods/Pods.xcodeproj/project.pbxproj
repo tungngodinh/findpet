@@ -7,54 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		062BF317E083A4219BD4EA758321BE0A /* FAKIonIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5AF1431F6FE34807B8E6961C281F59 /* FAKIonIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0716E77FA16FC39049FE21C3B6614A57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32431FA5524F12225B1B779AF3E4A6D /* Foundation.framework */; };
-		0C46B4601DBF9A2555DDCE31CFBB7F58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C23E16390F6F5920E271EBFB6A30A8 /* UIKit.framework */; };
-		173695E3610C8FF324F2B703D58680F5 /* FontAwesomeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5021F47F1168EF249060F82B814E45D4 /* FontAwesomeKit-dummy.m */; };
-		4A62F8BD346D1460EF1ABB1B70D1A1A2 /* FAKFontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = A32C56C83F204D18714D43D2C26271B3 /* FAKFontAwesome.m */; };
-		4A750911B88F1E929C3FA7CBE9A6C2EE /* FAKZocial.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D064DEF030AE7F069152D4F2EFCB77 /* FAKZocial.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B50B810BC4C797795143B76F8EC9FE8 /* FAKFoundationIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E09B505D754EF257A04DAFE895834A8 /* FAKFoundationIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		587DBE46C921F7FF06F68E66C72BFB9B /* FAKFoundationIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7D5245E20D2C27F773D8EEF3B3B074 /* FAKFoundationIcons.m */; };
-		599293A9933B7E3F9DB198CA0D536DCB /* FAKOcticons.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D25A174A25873C4F6C122E71E8A162 /* FAKOcticons.m */; };
-		5A35ADD9396753D2D32C9EDCC86840A2 /* FAKMaterialIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 247645A8511C23AE1B8F90666A48578B /* FAKMaterialIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		602955410FE6BA5A248E9623F06FE552 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282E317D90744761F406E685BC46589A /* CoreText.framework */; };
-		6D7DBEC78E7C5F007B50D1A8FCB21DF6 /* FAKIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = B9700A352D16FBBD10621905FF74C6D1 /* FAKIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7094DD534AA7D8C58846A584EBFDBFFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32431FA5524F12225B1B779AF3E4A6D /* Foundation.framework */; };
-		873AD87492B7ED776505FA6A7830B124 /* LSBluetoothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5696D67EAF615841A72CA935449698CD /* LSBluetoothManager.m */; };
-		88D9267787AE84394E833FB63E2F6297 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C23E16390F6F5920E271EBFB6A30A8 /* UIKit.framework */; };
-		8A880503433B7830AB4F44D19D758E1B /* FAKMaterialIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A8EABAF9160FCF9F9504F72A604636 /* FAKMaterialIcons.m */; };
-		8C9CE91BC3C17B920AE1AF53660852DE /* UIScrollView+EmptyDataSet.h in Headers */ = {isa = PBXBuildFile; fileRef = A6500249BB559BCAEF90E2A99FB4DFDC /* UIScrollView+EmptyDataSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99317E0D3850316A704B36F9C755E8F1 /* LSBluetoothManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C2A337A53F75B85B7BE73AD467B0092F /* LSBluetoothManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B3BFA21D70896F0F50C3FD2F2B868DC0 /* Pods-FindPet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9680CD179E7FEA9A161528ABEB34A5E9 /* Pods-FindPet-dummy.m */; };
-		BD54C1BE3607B36DE3219271A8AC4440 /* FAKIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E49F1BF0C969CBFFEEF2964D6495473 /* FAKIcon.m */; };
-		CB1B1DC656CAE89B03877BDC70EA5E20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32431FA5524F12225B1B779AF3E4A6D /* Foundation.framework */; };
-		CFE475FEA0835476AA72750057738DF2 /* FAKOcticons.h in Headers */ = {isa = PBXBuildFile; fileRef = 32904822B384EEEBEFE1CCEAF8FEE87E /* FAKOcticons.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D1FFAFA8154DD4BEB8A7731D7E15B0C4 /* FAKZocial.m in Sources */ = {isa = PBXBuildFile; fileRef = FA553F3DFBACDDD729CDCD9881D610F4 /* FAKZocial.m */; };
-		D7561934BB354EC7FBC0A4855F5CF1EB /* LSBLEManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CC4FD8767F0DD13B854CDFDDE00F68 /* LSBLEManager-dummy.m */; };
-		D816EA3EFC0D2B56C7E66F9A01740D02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32431FA5524F12225B1B779AF3E4A6D /* Foundation.framework */; };
-		DA430DBA270BAAA3B04529CF7D9AD3DC /* FAKIonIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D6DB78EBF7644954BCFAE4F8D3C4DE /* FAKIonIcons.m */; };
-		E17863CF05830872D184648E46CA2CC7 /* FAKFontAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = 65BA9BC409060CCDB12E7161B7DE38B0 /* FAKFontAwesome.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E659F4CEB5430BC17E59431CAACBB217 /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = D3890AD06EA8D42E0B5D43D13B874AB1 /* UIScrollView+EmptyDataSet.m */; };
-		E7B54ACBD8CB51596799063FD7C3CEA9 /* DZNEmptyDataSet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3AE7889D12D5130E5290018108E0D11 /* DZNEmptyDataSet-dummy.m */; };
-		F4E06CB1ECAEBDA01CAE40F57CA11334 /* FontAwesomeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 47C0071C4E960DFF8DF3E94B4B79575B /* FontAwesomeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		033401F1A67ED30C06BA9F644845B0A1 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 265E9E7469F9F21A8094B0BC03443388 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		062BF317E083A4219BD4EA758321BE0A /* FAKIonIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F9E9788A21AFFFE9C8FB387B2A284C8 /* FAKIonIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0716E77FA16FC39049FE21C3B6614A57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28F57A5F07B072EAEC564D36AC6C78D /* Foundation.framework */; };
+		0C46B4601DBF9A2555DDCE31CFBB7F58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D7C6B1F087D994C9EC4732C58EBFBA5 /* UIKit.framework */; };
+		173695E3610C8FF324F2B703D58680F5 /* FontAwesomeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E52606493DC8F2FD4F0A15D65D926B9 /* FontAwesomeKit-dummy.m */; };
+		336024806FCFE11858CC6B7529268E37 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D400F62AA9E04E5F2DC1771871AAE6EF /* SVRadialGradientLayer.m */; };
+		4A62F8BD346D1460EF1ABB1B70D1A1A2 /* FAKFontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BE6204BCFA7841053D6C22949DA966 /* FAKFontAwesome.m */; };
+		4A750911B88F1E929C3FA7CBE9A6C2EE /* FAKZocial.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E4883DF05CF487336D438F871B03F8 /* FAKZocial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B50B810BC4C797795143B76F8EC9FE8 /* FAKFoundationIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = C341A5EDFC5DD9CBE1C4435935DF38E0 /* FAKFoundationIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C4419467473FEC65D3B883A2445C40E /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BCD70F305632325D2DC0B61AB66C9F /* SVProgressAnimatedView.m */; };
+		587DBE46C921F7FF06F68E66C72BFB9B /* FAKFoundationIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BF4D23FFE445B9048AB8A65330655F /* FAKFoundationIcons.m */; };
+		599293A9933B7E3F9DB198CA0D536DCB /* FAKOcticons.m in Sources */ = {isa = PBXBuildFile; fileRef = 410CD46CE9E860DF4684F2283479223F /* FAKOcticons.m */; };
+		5A35ADD9396753D2D32C9EDCC86840A2 /* FAKMaterialIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = F9B5B50284950BF704E02522A989293F /* FAKMaterialIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D90EEB8980202D25EF1446A3FAB1652 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D741AE82305179C3D796A84CFA7AD5 /* QuartzCore.framework */; };
+		602955410FE6BA5A248E9623F06FE552 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 677BD20CCF699E480225F577E20A63CC /* CoreText.framework */; };
+		6D7DBEC78E7C5F007B50D1A8FCB21DF6 /* FAKIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = CC29880B5009D61FDB86DA522CFE1395 /* FAKIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7094DD534AA7D8C58846A584EBFDBFFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28F57A5F07B072EAEC564D36AC6C78D /* Foundation.framework */; };
+		83BE02CEF6AEDC672DB18361B33B820A /* Pods-FindPet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9680CD179E7FEA9A161528ABEB34A5E9 /* Pods-FindPet-dummy.m */; };
+		84116583931BFF991A4FAE5D61A4EE6E /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = C7D9B03F507C33608B11333ED9157084 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86382B17647CABB0C016509D99EFC626 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BBBD4B2726FE84D5A0CB60B263BD6F /* SVIndefiniteAnimatedView.m */; };
+		873AD87492B7ED776505FA6A7830B124 /* LSBluetoothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9609BA1041723D0087F7ED788AA85853 /* LSBluetoothManager.m */; };
+		88D9267787AE84394E833FB63E2F6297 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D7C6B1F087D994C9EC4732C58EBFBA5 /* UIKit.framework */; };
+		8A880503433B7830AB4F44D19D758E1B /* FAKMaterialIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 5161D2EFD81E2E3B4727BB8D5BE6F480 /* FAKMaterialIcons.m */; };
+		8C9CE91BC3C17B920AE1AF53660852DE /* UIScrollView+EmptyDataSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DD41FF97C238170905CFBC476721753 /* UIScrollView+EmptyDataSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99317E0D3850316A704B36F9C755E8F1 /* LSBluetoothManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 305051BF863A0A0E1D84D7041FA9B43D /* LSBluetoothManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A714CE1D775917FC80ABBBE27039C5A0 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 7747BD324186C137E8AF6D1605526C0A /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B13CD4914EC22CE950A6FAD2B31929AA /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = CD5F81E3D522C25C286013A12E1CC9E3 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB8FBD8D1F92B88BE11A8728369CC607 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28F57A5F07B072EAEC564D36AC6C78D /* Foundation.framework */; };
+		BD54C1BE3607B36DE3219271A8AC4440 /* FAKIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 034F1BF674FCDE2514A2E301DE7E23C5 /* FAKIcon.m */; };
+		CFE475FEA0835476AA72750057738DF2 /* FAKOcticons.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA659FA6E45B96AA3384EF284FEE57E /* FAKOcticons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1FFAFA8154DD4BEB8A7731D7E15B0C4 /* FAKZocial.m in Sources */ = {isa = PBXBuildFile; fileRef = BD74B092DB079D3F5A15CD895BE79CF2 /* FAKZocial.m */; };
+		D7561934BB354EC7FBC0A4855F5CF1EB /* LSBLEManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA406EB73FB3D1FA3768302502C48A8 /* LSBLEManager-dummy.m */; };
+		D816EA3EFC0D2B56C7E66F9A01740D02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28F57A5F07B072EAEC564D36AC6C78D /* Foundation.framework */; };
+		DA430DBA270BAAA3B04529CF7D9AD3DC /* FAKIonIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 12CB0F39F7C7E37FFA7E0D56035A2014 /* FAKIonIcons.m */; };
+		E17863CF05830872D184648E46CA2CC7 /* FAKFontAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = 53535F45ACE944A2D73F6CF0E4C306D9 /* FAKFontAwesome.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E659F4CEB5430BC17E59431CAACBB217 /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8173D6CD247A26262FB6F1D739A7783F /* UIScrollView+EmptyDataSet.m */; };
+		E7B54ACBD8CB51596799063FD7C3CEA9 /* DZNEmptyDataSet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33199F34745E2BF283C400D53921EAA9 /* DZNEmptyDataSet-dummy.m */; };
+		ED6B193497B38D5CB71AE919E1C34615 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F7435D67673A72444A84F83512B03B63 /* SVProgressHUD.m */; };
+		F4E06CB1ECAEBDA01CAE40F57CA11334 /* FontAwesomeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F3F1D93F1A021EBE1383934A8074B91 /* FontAwesomeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC31B03F891ED3C3FB324559A69ED184 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A7F1CFA52261E257CA5390F020DA24 /* SVProgressHUD-dummy.m */; };
+		FCB9BC7303B4380B8127CF8D01034348 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28F57A5F07B072EAEC564D36AC6C78D /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		49341B80AF6ECF7BCA65CE1E87FE83DF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A0576695436CB184F1B271DD04B660ED;
-			remoteInfo = LSBLEManager;
-		};
-		7DCFFA2AF533CF5A4CD233329C271454 /* PBXContainerItemProxy */ = {
+		259EB6D1EA27C701C4CB93316A34FBCB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5437890023F30CA85DFCA260CA914D48;
 			remoteInfo = DZNEmptyDataSet;
 		};
-		CC7F01332ED5898D8C5D6CEA6B0C853C /* PBXContainerItemProxy */ = {
+		8A96F6603CF12D72412046C4B3782EAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D0F80FE675E55A298120A2DD6CC3FC0;
+			remoteInfo = SVProgressHUD;
+		};
+		8E7E75B3DBFBDBD1CD43E18322475120 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0576695436CB184F1B271DD04B660ED;
+			remoteInfo = LSBLEManager;
+		};
+		E60B300505ECFD817C3FF24DC72BA055 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -64,58 +82,80 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04D25A174A25873C4F6C122E71E8A162 /* FAKOcticons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKOcticons.m; path = FontAwesomeKit/FAKOcticons.m; sourceTree = "<group>"; };
-		12D6DB78EBF7644954BCFAE4F8D3C4DE /* FAKIonIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKIonIcons.m; path = FontAwesomeKit/FAKIonIcons.m; sourceTree = "<group>"; };
+		0203592809730356ACFCCA19948D0CA5 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		034F1BF674FCDE2514A2E301DE7E23C5 /* FAKIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKIcon.m; path = FontAwesomeKit/FAKIcon.m; sourceTree = "<group>"; };
+		03BCD70F305632325D2DC0B61AB66C9F /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		07887BE6E702585B8A580CEED52037E1 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		0E52606493DC8F2FD4F0A15D65D926B9 /* FontAwesomeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesomeKit-dummy.m"; sourceTree = "<group>"; };
+		10BE6204BCFA7841053D6C22949DA966 /* FAKFontAwesome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKFontAwesome.m; path = FontAwesomeKit/FAKFontAwesome.m; sourceTree = "<group>"; };
+		110DB34F6B7517E5BEBD447CC02FC9CB /* zocial-regular-webfont.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "zocial-regular-webfont.ttf"; path = "FontAwesomeKit/zocial-regular-webfont.ttf"; sourceTree = "<group>"; };
+		12CB0F39F7C7E37FFA7E0D56035A2014 /* FAKIonIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKIonIcons.m; path = FontAwesomeKit/FAKIonIcons.m; sourceTree = "<group>"; };
 		19C485D706A86023AE8A40F6BAA9AD83 /* Pods-FindPet-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FindPet-acknowledgements.markdown"; sourceTree = "<group>"; };
-		247645A8511C23AE1B8F90666A48578B /* FAKMaterialIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKMaterialIcons.h; path = FontAwesomeKit/FAKMaterialIcons.h; sourceTree = "<group>"; };
-		2642BA1058BAF54261677A7F997C38F5 /* FontAwesome.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.otf; path = FontAwesomeKit/FontAwesome.otf; sourceTree = "<group>"; };
-		27C23E16390F6F5920E271EBFB6A30A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		282E317D90744761F406E685BC46589A /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		24E4883DF05CF487336D438F871B03F8 /* FAKZocial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKZocial.h; path = FontAwesomeKit/FAKZocial.h; sourceTree = "<group>"; };
+		265E9E7469F9F21A8094B0BC03443388 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		2678E8728981177902284ACC6591BAC2 /* LSBLEManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LSBLEManager-prefix.pch"; sourceTree = "<group>"; };
+		2ABDF07AAE86DDD3061AFBAF72AB3AF0 /* FontAwesomeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesomeKit.xcconfig; sourceTree = "<group>"; };
 		2CD6778555C108737DF4B8F16A875732 /* Pods-FindPet-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FindPet-acknowledgements.plist"; sourceTree = "<group>"; };
-		32904822B384EEEBEFE1CCEAF8FEE87E /* FAKOcticons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKOcticons.h; path = FontAwesomeKit/FAKOcticons.h; sourceTree = "<group>"; };
-		33B39E76197673923A2832BEA143791C /* libLSBLEManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLSBLEManager.a; path = libLSBLEManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		36CC4FD8767F0DD13B854CDFDDE00F68 /* LSBLEManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LSBLEManager-dummy.m"; sourceTree = "<group>"; };
-		3FC8C7F8625EF13DA68179EA56ADEE31 /* ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = ionicons.ttf; path = FontAwesomeKit/ionicons.ttf; sourceTree = "<group>"; };
-		47C0071C4E960DFF8DF3E94B4B79575B /* FontAwesomeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FontAwesomeKit.h; path = FontAwesomeKit/FontAwesomeKit.h; sourceTree = "<group>"; };
-		4E09B505D754EF257A04DAFE895834A8 /* FAKFoundationIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKFoundationIcons.h; path = FontAwesomeKit/FAKFoundationIcons.h; sourceTree = "<group>"; };
-		5021F47F1168EF249060F82B814E45D4 /* FontAwesomeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesomeKit-dummy.m"; sourceTree = "<group>"; };
-		5696D67EAF615841A72CA935449698CD /* LSBluetoothManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LSBluetoothManager.m; sourceTree = "<group>"; };
-		57DF572937222D462FAB0FF776E82466 /* zocial-regular-webfont.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "zocial-regular-webfont.ttf"; path = "FontAwesomeKit/zocial-regular-webfont.ttf"; sourceTree = "<group>"; };
-		57E2DB4D30B0437F5F7D615C4B7FE8D9 /* octicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = octicons.ttf; path = FontAwesomeKit/octicons.ttf; sourceTree = "<group>"; };
+		305051BF863A0A0E1D84D7041FA9B43D /* LSBluetoothManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LSBluetoothManager.h; sourceTree = "<group>"; };
+		33199F34745E2BF283C400D53921EAA9 /* DZNEmptyDataSet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DZNEmptyDataSet-dummy.m"; sourceTree = "<group>"; };
+		35BF4D23FFE445B9048AB8A65330655F /* FAKFoundationIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKFoundationIcons.m; path = FontAwesomeKit/FAKFoundationIcons.m; sourceTree = "<group>"; };
+		3D4FD69450ED72E3CF615978D4BDDEEC /* DZNEmptyDataSet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZNEmptyDataSet-prefix.pch"; sourceTree = "<group>"; };
+		3F05B0FFE3DD519207C3E0F075CCDB20 /* DZNEmptyDataSet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DZNEmptyDataSet.xcconfig; sourceTree = "<group>"; };
+		3F8E8978E835557E3283AA3937B92397 /* octicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = octicons.ttf; path = FontAwesomeKit/octicons.ttf; sourceTree = "<group>"; };
+		40BBBD4B2726FE84D5A0CB60B263BD6F /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		410CD46CE9E860DF4684F2283479223F /* FAKOcticons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKOcticons.m; path = FontAwesomeKit/FAKOcticons.m; sourceTree = "<group>"; };
+		4505D43935C3861A299501C545231DAB /* libLSBLEManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLSBLEManager.a; path = libLSBLEManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		463C8668A4C3596D841EECCFEAF2C7CC /* FontAwesomeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeKit-prefix.pch"; sourceTree = "<group>"; };
+		5161D2EFD81E2E3B4727BB8D5BE6F480 /* FAKMaterialIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKMaterialIcons.m; path = FontAwesomeKit/FAKMaterialIcons.m; sourceTree = "<group>"; };
+		51A7F1CFA52261E257CA5390F020DA24 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		53535F45ACE944A2D73F6CF0E4C306D9 /* FAKFontAwesome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKFontAwesome.h; path = FontAwesomeKit/FAKFontAwesome.h; sourceTree = "<group>"; };
 		5861C88524AF878AC89DA148B87F9062 /* Pods-FindPet-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FindPet-frameworks.sh"; sourceTree = "<group>"; };
-		5E49F1BF0C969CBFFEEF2964D6495473 /* FAKIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKIcon.m; path = FontAwesomeKit/FAKIcon.m; sourceTree = "<group>"; };
-		6091CA39B68AE9F259151D3454695CE4 /* DZNEmptyDataSet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DZNEmptyDataSet.xcconfig; sourceTree = "<group>"; };
-		65BA9BC409060CCDB12E7161B7DE38B0 /* FAKFontAwesome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKFontAwesome.h; path = FontAwesomeKit/FAKFontAwesome.h; sourceTree = "<group>"; };
-		66981EC45333E7356F113D93101DEC2C /* Material-Design-Iconic-Font.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Material-Design-Iconic-Font.ttf"; path = "FontAwesomeKit/Material-Design-Iconic-Font.ttf"; sourceTree = "<group>"; };
-		6AB2D2E141B3F117BD630029C03BA0C1 /* libDZNEmptyDataSet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDZNEmptyDataSet.a; path = libDZNEmptyDataSet.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		772F9BFC4959AF8228A5A52720AE0F44 /* foundation-icons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "foundation-icons.ttf"; path = "FontAwesomeKit/foundation-icons.ttf"; sourceTree = "<group>"; };
-		7A7D5245E20D2C27F773D8EEF3B3B074 /* FAKFoundationIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKFoundationIcons.m; path = FontAwesomeKit/FAKFoundationIcons.m; sourceTree = "<group>"; };
-		7F182D046A6567661C19D8919AD47D2C /* FontAwesomeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeKit-prefix.pch"; sourceTree = "<group>"; };
+		5BA406EB73FB3D1FA3768302502C48A8 /* LSBLEManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LSBLEManager-dummy.m"; sourceTree = "<group>"; };
+		5D7C6B1F087D994C9EC4732C58EBFBA5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		65FC7ADF7B3A6BDC4DD0A7E64157BB24 /* LSBLEManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LSBLEManager.xcconfig; sourceTree = "<group>"; };
+		677BD20CCF699E480225F577E20A63CC /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		76C4FC53306D604B419E696599EEA6B5 /* foundation-icons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "foundation-icons.ttf"; path = "FontAwesomeKit/foundation-icons.ttf"; sourceTree = "<group>"; };
+		7747BD324186C137E8AF6D1605526C0A /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		79955896BA7DACD14EDDDC8D0289521E /* FontAwesome.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.otf; path = FontAwesomeKit/FontAwesome.otf; sourceTree = "<group>"; };
+		80B6A7C4C9663DD768B808D38DCB4AF3 /* libPods-FindPet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FindPet.a"; path = "libPods-FindPet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8173D6CD247A26262FB6F1D739A7783F /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+EmptyDataSet.m"; path = "Source/UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
 		87B986D8A0B568C8D4876A4BCEE70E4B /* Pods-FindPet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FindPet.release.xcconfig"; sourceTree = "<group>"; };
+		8DD41FF97C238170905CFBC476721753 /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+EmptyDataSet.h"; path = "Source/UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
+		8F3F1D93F1A021EBE1383934A8074B91 /* FontAwesomeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FontAwesomeKit.h; path = FontAwesomeKit/FontAwesomeKit.h; sourceTree = "<group>"; };
+		8F9E9788A21AFFFE9C8FB387B2A284C8 /* FAKIonIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKIonIcons.h; path = FontAwesomeKit/FAKIonIcons.h; sourceTree = "<group>"; };
+		9298E7AF169290635DFF5C6A2E55EC79 /* libDZNEmptyDataSet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDZNEmptyDataSet.a; path = libDZNEmptyDataSet.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		934E04E107024DCA306581E5FF607658 /* ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = ionicons.ttf; path = FontAwesomeKit/ionicons.ttf; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9609BA1041723D0087F7ED788AA85853 /* LSBluetoothManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LSBluetoothManager.m; sourceTree = "<group>"; };
 		9680CD179E7FEA9A161528ABEB34A5E9 /* Pods-FindPet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FindPet-dummy.m"; sourceTree = "<group>"; };
-		A32C56C83F204D18714D43D2C26271B3 /* FAKFontAwesome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKFontAwesome.m; path = FontAwesomeKit/FAKFontAwesome.m; sourceTree = "<group>"; };
-		A4D064DEF030AE7F069152D4F2EFCB77 /* FAKZocial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKZocial.h; path = FontAwesomeKit/FAKZocial.h; sourceTree = "<group>"; };
-		A6500249BB559BCAEF90E2A99FB4DFDC /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+EmptyDataSet.h"; path = "Source/UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
-		A7A8EABAF9160FCF9F9504F72A604636 /* FAKMaterialIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKMaterialIcons.m; path = FontAwesomeKit/FAKMaterialIcons.m; sourceTree = "<group>"; };
-		AA5AF1431F6FE34807B8E6961C281F59 /* FAKIonIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKIonIcons.h; path = FontAwesomeKit/FAKIonIcons.h; sourceTree = "<group>"; };
-		B07A20F48B0C760414CF472624FDB848 /* LSBLEManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LSBLEManager.xcconfig; sourceTree = "<group>"; };
-		B32431FA5524F12225B1B779AF3E4A6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		B3DC2E6E7E6E306429FF943717BE230B /* LSBLEManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LSBLEManager-prefix.pch"; sourceTree = "<group>"; };
-		B9700A352D16FBBD10621905FF74C6D1 /* FAKIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKIcon.h; path = FontAwesomeKit/FAKIcon.h; sourceTree = "<group>"; };
-		C2A337A53F75B85B7BE73AD467B0092F /* LSBluetoothManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LSBluetoothManager.h; sourceTree = "<group>"; };
-		C6680D4F75FD127285F2FC175C7E668F /* libFontAwesomeKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFontAwesomeKit.a; path = libFontAwesomeKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3890AD06EA8D42E0B5D43D13B874AB1 /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+EmptyDataSet.m"; path = "Source/UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
-		D4EE3F59FF05EA58DCA5D07ED7A5D94B /* DZNEmptyDataSet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZNEmptyDataSet-prefix.pch"; sourceTree = "<group>"; };
-		E08CC6DD8BB6CFC88AC238F1C2E00F3F /* FontAwesomeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesomeKit.xcconfig; sourceTree = "<group>"; };
-		E3AE7889D12D5130E5290018108E0D11 /* DZNEmptyDataSet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DZNEmptyDataSet-dummy.m"; sourceTree = "<group>"; };
-		EBB9E72161D02DC228E08AFAD605C62C /* libPods-FindPet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FindPet.a"; path = "libPods-FindPet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA659FA6E45B96AA3384EF284FEE57E /* FAKOcticons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKOcticons.h; path = FontAwesomeKit/FAKOcticons.h; sourceTree = "<group>"; };
+		BD74B092DB079D3F5A15CD895BE79CF2 /* FAKZocial.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKZocial.m; path = FontAwesomeKit/FAKZocial.m; sourceTree = "<group>"; };
+		C341A5EDFC5DD9CBE1C4435935DF38E0 /* FAKFoundationIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKFoundationIcons.h; path = FontAwesomeKit/FAKFoundationIcons.h; sourceTree = "<group>"; };
+		C7D2C550EABCBD14C433E05FAAA6AAD1 /* libFontAwesomeKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFontAwesomeKit.a; path = libFontAwesomeKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7D9B03F507C33608B11333ED9157084 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		CC29880B5009D61FDB86DA522CFE1395 /* FAKIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKIcon.h; path = FontAwesomeKit/FAKIcon.h; sourceTree = "<group>"; };
+		CD5F81E3D522C25C286013A12E1CC9E3 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		CD66D85174DB8CA8CCA14E1635B8A028 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		D28F57A5F07B072EAEC564D36AC6C78D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D400F62AA9E04E5F2DC1771871AAE6EF /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		DE2986F5F9C588C2D7E0CD5D60EFE72D /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSVProgressHUD.a; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE9FDB7B278CE5BD05C3D2758ED06B0 /* Material-Design-Iconic-Font.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Material-Design-Iconic-Font.ttf"; path = "FontAwesomeKit/Material-Design-Iconic-Font.ttf"; sourceTree = "<group>"; };
 		ECA03D7F052506494AFF99ECDDFA4B87 /* Pods-FindPet-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FindPet-resources.sh"; sourceTree = "<group>"; };
-		FA553F3DFBACDDD729CDCD9881D610F4 /* FAKZocial.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKZocial.m; path = FontAwesomeKit/FAKZocial.m; sourceTree = "<group>"; };
+		F3D741AE82305179C3D796A84CFA7AD5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		F7435D67673A72444A84F83512B03B63 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		F9B5B50284950BF704E02522A989293F /* FAKMaterialIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKMaterialIcons.h; path = FontAwesomeKit/FAKMaterialIcons.h; sourceTree = "<group>"; };
 		FC7A6079EA7693F1468E04C1F72C8272 /* Pods-FindPet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FindPet.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		02E0D157A17772ADF19D92342FB0E276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB9BC7303B4380B8127CF8D01034348 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		337A15437F2D8E9608BBC9A7F937EB94 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -125,19 +165,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3D9AE0E7F8CFCD8EEAF16540B71E0005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8FBD8D1F92B88BE11A8728369CC607 /* Foundation.framework in Frameworks */,
+				5D90EEB8980202D25EF1446A3FAB1652 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7BDD7B4D59C7433EF413CB586B26E7A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0716E77FA16FC39049FE21C3B6614A57 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A887F2BD5C1EA651A4F1DEB357F1D845 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CB1B1DC656CAE89B03877BDC70EA5E20 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,79 +195,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		005B1E72DD9A505AA9F45095C5A737DD /* Resources */ = {
+		071B84228C46149F43EC27FB6282E47F /* Zocial */ = {
 			isa = PBXGroup;
 			children = (
-				57E2DB4D30B0437F5F7D615C4B7FE8D9 /* octicons.ttf */,
+				24E4883DF05CF487336D438F871B03F8 /* FAKZocial.h */,
+				BD74B092DB079D3F5A15CD895BE79CF2 /* FAKZocial.m */,
+				EF0BB5A3C5FDF86A3E5E6967B928290D /* Resources */,
 			);
-			name = Resources;
+			name = Zocial;
 			sourceTree = "<group>";
 		};
-		051B76A401D9088929B3552EEA25C4E9 /* FoundationIcons */ = {
+		085678940A1D8C8FD6ECC077E756217C /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				4E09B505D754EF257A04DAFE895834A8 /* FAKFoundationIcons.h */,
-				7A7D5245E20D2C27F773D8EEF3B3B074 /* FAKFoundationIcons.m */,
-				DAE11CAA18C1474FC0178DEAB3C6F4AE /* Resources */,
-			);
-			name = FoundationIcons;
-			sourceTree = "<group>";
-		};
-		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3587588751A8A6B53D9C05B2DC18428D /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		150B9BD59C33F39568D78F4A66BA12C0 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				3FC8C7F8625EF13DA68179EA56ADEE31 /* ionicons.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		29AE0AB7844831DA3ED82718F9B63A4C /* IonIcons */ = {
-			isa = PBXGroup;
-			children = (
-				AA5AF1431F6FE34807B8E6961C281F59 /* FAKIonIcons.h */,
-				12D6DB78EBF7644954BCFAE4F8D3C4DE /* FAKIonIcons.m */,
-				150B9BD59C33F39568D78F4A66BA12C0 /* Resources */,
-			);
-			name = IonIcons;
-			sourceTree = "<group>";
-		};
-		2FB20AD2AE6427862BD6145718BECD89 /* LSBLEManager */ = {
-			isa = PBXGroup;
-			children = (
-				C2A337A53F75B85B7BE73AD467B0092F /* LSBluetoothManager.h */,
-				5696D67EAF615841A72CA935449698CD /* LSBluetoothManager.m */,
-				E6C1121BEC9B6E150B6E55A32E46BE5B /* Support Files */,
-			);
-			name = LSBLEManager;
-			path = LSBLEManager;
-			sourceTree = "<group>";
-		};
-		3587588751A8A6B53D9C05B2DC18428D /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				282E317D90744761F406E685BC46589A /* CoreText.framework */,
-				B32431FA5524F12225B1B779AF3E4A6D /* Foundation.framework */,
-				27C23E16390F6F5920E271EBFB6A30A8 /* UIKit.framework */,
+				677BD20CCF699E480225F577E20A63CC /* CoreText.framework */,
+				D28F57A5F07B072EAEC564D36AC6C78D /* Foundation.framework */,
+				F3D741AE82305179C3D796A84CFA7AD5 /* QuartzCore.framework */,
+				5D7C6B1F087D994C9EC4732C58EBFBA5 /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		35E450AE650F8171F8F484500F32B38F /* FontAwesome */ = {
+		0A1761C7433F9BC15215BC011CEC98A4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				65BA9BC409060CCDB12E7161B7DE38B0 /* FAKFontAwesome.h */,
-				A32C56C83F204D18714D43D2C26271B3 /* FAKFontAwesome.m */,
-				E08EF9F8EC21488AE4D0504453731592 /* Resources */,
+				CD66D85174DB8CA8CCA14E1635B8A028 /* SVProgressHUD.xcconfig */,
+				51A7F1CFA52261E257CA5390F020DA24 /* SVProgressHUD-dummy.m */,
+				07887BE6E702585B8A580CEED52037E1 /* SVProgressHUD-prefix.pch */,
 			);
-			name = FontAwesome;
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		13689D91D4C722C6290A7EF8B2B6BA1F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				65FC7ADF7B3A6BDC4DD0A7E64157BB24 /* LSBLEManager.xcconfig */,
+				5BA406EB73FB3D1FA3768302502C48A8 /* LSBLEManager-dummy.m */,
+				2678E8728981177902284ACC6591BAC2 /* LSBLEManager-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LSBLEManager";
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				085678940A1D8C8FD6ECC077E756217C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14EF7FEA748AFF3D55AFFEAD773ADE7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE5BAB6DEDF6419D3D7C54854E7EA2B6 /* DZNEmptyDataSet */,
+				C222AD99579580276898BE6D29F1B7EB /* FontAwesomeKit */,
+				E9B4C1EFDD8E4724FF84E2386F1D47FC /* LSBLEManager */,
+				69383B1DC7312BF98E5D484FD99C6BD7 /* SVProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		221015B61F59A91979F940C2D2E78F2C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				76C4FC53306D604B419E696599EEA6B5 /* foundation-icons.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		35E87E9B3F9BACBC64EFD02760125E9F /* Pods-FindPet */ = {
@@ -244,66 +280,128 @@
 			path = "Target Support Files/Pods-FindPet";
 			sourceTree = "<group>";
 		};
-		4E9CD4E84DD72B81040131977325DB32 /* Products */ = {
+		36F136AF8A47CF904E14838B7AD7B5BE /* IonIcons */ = {
 			isa = PBXGroup;
 			children = (
-				6AB2D2E141B3F117BD630029C03BA0C1 /* libDZNEmptyDataSet.a */,
-				C6680D4F75FD127285F2FC175C7E668F /* libFontAwesomeKit.a */,
-				33B39E76197673923A2832BEA143791C /* libLSBLEManager.a */,
-				EBB9E72161D02DC228E08AFAD605C62C /* libPods-FindPet.a */,
+				8F9E9788A21AFFFE9C8FB387B2A284C8 /* FAKIonIcons.h */,
+				12CB0F39F7C7E37FFA7E0D56035A2014 /* FAKIonIcons.m */,
+				548329322D50E28A492386EF742C1A15 /* Resources */,
 			);
-			name = Products;
+			name = IonIcons;
 			sourceTree = "<group>";
 		};
-		611B3D4DDBCDCC2C18945A88CA6EB6B9 /* Resources */ = {
+		3A14F3E3D7BBD01E27F19550842EA0BC /* Material */ = {
 			isa = PBXGroup;
 			children = (
-				57DF572937222D462FAB0FF776E82466 /* zocial-regular-webfont.ttf */,
+				F9B5B50284950BF704E02522A989293F /* FAKMaterialIcons.h */,
+				5161D2EFD81E2E3B4727BB8D5BE6F480 /* FAKMaterialIcons.m */,
+				7A3AAD3AAE278543F4992CE4A30DF111 /* Resources */,
+			);
+			name = Material;
+			sourceTree = "<group>";
+		};
+		4097E35BA0B30BC79E4D70FC9EE7B208 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CC29880B5009D61FDB86DA522CFE1395 /* FAKIcon.h */,
+				034F1BF674FCDE2514A2E301DE7E23C5 /* FAKIcon.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		548329322D50E28A492386EF742C1A15 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				934E04E107024DCA306581E5FF607658 /* ionicons.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		7C25660913187571FAD53DBDC071915A /* DZNEmptyDataSet */ = {
+		69383B1DC7312BF98E5D484FD99C6BD7 /* SVProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				A6500249BB559BCAEF90E2A99FB4DFDC /* UIScrollView+EmptyDataSet.h */,
-				D3890AD06EA8D42E0B5D43D13B874AB1 /* UIScrollView+EmptyDataSet.m */,
-				A36C0667CED039E8BA2442091A143FB6 /* Support Files */,
+				CD5F81E3D522C25C286013A12E1CC9E3 /* SVIndefiniteAnimatedView.h */,
+				40BBBD4B2726FE84D5A0CB60B263BD6F /* SVIndefiniteAnimatedView.m */,
+				C7D9B03F507C33608B11333ED9157084 /* SVProgressAnimatedView.h */,
+				03BCD70F305632325D2DC0B61AB66C9F /* SVProgressAnimatedView.m */,
+				7747BD324186C137E8AF6D1605526C0A /* SVProgressHUD.h */,
+				F7435D67673A72444A84F83512B03B63 /* SVProgressHUD.m */,
+				265E9E7469F9F21A8094B0BC03443388 /* SVRadialGradientLayer.h */,
+				D400F62AA9E04E5F2DC1771871AAE6EF /* SVRadialGradientLayer.m */,
+				6B608456B6569775441A22302451063D /* Resources */,
+				0A1761C7433F9BC15215BC011CEC98A4 /* Support Files */,
 			);
-			name = DZNEmptyDataSet;
-			path = DZNEmptyDataSet;
+			name = SVProgressHUD;
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		6B608456B6569775441A22302451063D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0203592809730356ACFCCA19948D0CA5 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		729CDBA92CFE82E024B334B07E301787 /* Octicons */ = {
+			isa = PBXGroup;
+			children = (
+				AEA659FA6E45B96AA3384EF284FEE57E /* FAKOcticons.h */,
+				410CD46CE9E860DF4684F2283479223F /* FAKOcticons.m */,
+				A2F54268A57B929C8A72BBE943F67BA5 /* Resources */,
+			);
+			name = Octicons;
+			sourceTree = "<group>";
+		};
+		7A3AAD3AAE278543F4992CE4A30DF111 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EAE9FDB7B278CE5BD05C3D2758ED06B0 /* Material-Design-Iconic-Font.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				A9FC8E40BCA06D023C7AAC2BFDAC6525 /* Pods */,
-				4E9CD4E84DD72B81040131977325DB32 /* Products */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				14EF7FEA748AFF3D55AFFEAD773ADE7D /* Pods */,
+				E2198072415B6CBB1D3B6C9E38957C50 /* Products */,
 				9C42CE69EC3314C3B64CB42EE3C8A178 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7E07846345C79B49A2512B251074CBC3 /* Support Files */ = {
+		851549F7CF70FDE9B66A1C56BE49E336 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E08CC6DD8BB6CFC88AC238F1C2E00F3F /* FontAwesomeKit.xcconfig */,
-				5021F47F1168EF249060F82B814E45D4 /* FontAwesomeKit-dummy.m */,
-				7F182D046A6567661C19D8919AD47D2C /* FontAwesomeKit-prefix.pch */,
+				2ABDF07AAE86DDD3061AFBAF72AB3AF0 /* FontAwesomeKit.xcconfig */,
+				0E52606493DC8F2FD4F0A15D65D926B9 /* FontAwesomeKit-dummy.m */,
+				463C8668A4C3596D841EECCFEAF2C7CC /* FontAwesomeKit-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/FontAwesomeKit";
 			sourceTree = "<group>";
 		};
-		8504BAA1BB1CF125159F45568199420B /* Octicons */ = {
+		8969497FC6AAF282406D15587AB7217E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				32904822B384EEEBEFE1CCEAF8FEE87E /* FAKOcticons.h */,
-				04D25A174A25873C4F6C122E71E8A162 /* FAKOcticons.m */,
-				005B1E72DD9A505AA9F45095C5A737DD /* Resources */,
+				3F05B0FFE3DD519207C3E0F075CCDB20 /* DZNEmptyDataSet.xcconfig */,
+				33199F34745E2BF283C400D53921EAA9 /* DZNEmptyDataSet-dummy.m */,
+				3D4FD69450ED72E3CF615978D4BDDEEC /* DZNEmptyDataSet-prefix.pch */,
 			);
-			name = Octicons;
+			name = "Support Files";
+			path = "../Target Support Files/DZNEmptyDataSet";
+			sourceTree = "<group>";
+		};
+		98CA8E0056E844AA19D4CB65CCF5D84D /* FontAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				53535F45ACE944A2D73F6CF0E4C306D9 /* FAKFontAwesome.h */,
+				10BE6204BCFA7841053D6C22949DA966 /* FAKFontAwesome.m */,
+				CD6F2E4BD09A8151BCF91AB64C5073C4 /* Resources */,
+			);
+			name = FontAwesome;
 			sourceTree = "<group>";
 		};
 		9C42CE69EC3314C3B64CB42EE3C8A178 /* Targets Support Files */ = {
@@ -314,111 +412,105 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A36C0667CED039E8BA2442091A143FB6 /* Support Files */ = {
+		A2F54268A57B929C8A72BBE943F67BA5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6091CA39B68AE9F259151D3454695CE4 /* DZNEmptyDataSet.xcconfig */,
-				E3AE7889D12D5130E5290018108E0D11 /* DZNEmptyDataSet-dummy.m */,
-				D4EE3F59FF05EA58DCA5D07ED7A5D94B /* DZNEmptyDataSet-prefix.pch */,
+				3F8E8978E835557E3283AA3937B92397 /* octicons.ttf */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/DZNEmptyDataSet";
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		A9FC8E40BCA06D023C7AAC2BFDAC6525 /* Pods */ = {
+		B2D6DB5EEEAE49371942A4F7F983451B /* FoundationIcons */ = {
 			isa = PBXGroup;
 			children = (
-				7C25660913187571FAD53DBDC071915A /* DZNEmptyDataSet */,
-				CDB69B2C95300C7E64F17466CDC58EB9 /* FontAwesomeKit */,
-				2FB20AD2AE6427862BD6145718BECD89 /* LSBLEManager */,
+				C341A5EDFC5DD9CBE1C4435935DF38E0 /* FAKFoundationIcons.h */,
+				35BF4D23FFE445B9048AB8A65330655F /* FAKFoundationIcons.m */,
+				221015B61F59A91979F940C2D2E78F2C /* Resources */,
 			);
-			name = Pods;
+			name = FoundationIcons;
 			sourceTree = "<group>";
 		};
-		CDB69B2C95300C7E64F17466CDC58EB9 /* FontAwesomeKit */ = {
+		C222AD99579580276898BE6D29F1B7EB /* FontAwesomeKit */ = {
 			isa = PBXGroup;
 			children = (
-				47C0071C4E960DFF8DF3E94B4B79575B /* FontAwesomeKit.h */,
-				E42D2363C58D6E4DD0CA0B1B921440CF /* Core */,
-				35E450AE650F8171F8F484500F32B38F /* FontAwesome */,
-				051B76A401D9088929B3552EEA25C4E9 /* FoundationIcons */,
-				29AE0AB7844831DA3ED82718F9B63A4C /* IonIcons */,
-				F7EF507B89DE4B705FE76B9A7E9B1FE2 /* Material */,
-				8504BAA1BB1CF125159F45568199420B /* Octicons */,
-				7E07846345C79B49A2512B251074CBC3 /* Support Files */,
-				DFC95F0E51605C7564096B5A6EB63043 /* Zocial */,
+				8F3F1D93F1A021EBE1383934A8074B91 /* FontAwesomeKit.h */,
+				4097E35BA0B30BC79E4D70FC9EE7B208 /* Core */,
+				98CA8E0056E844AA19D4CB65CCF5D84D /* FontAwesome */,
+				B2D6DB5EEEAE49371942A4F7F983451B /* FoundationIcons */,
+				36F136AF8A47CF904E14838B7AD7B5BE /* IonIcons */,
+				3A14F3E3D7BBD01E27F19550842EA0BC /* Material */,
+				729CDBA92CFE82E024B334B07E301787 /* Octicons */,
+				851549F7CF70FDE9B66A1C56BE49E336 /* Support Files */,
+				071B84228C46149F43EC27FB6282E47F /* Zocial */,
 			);
 			name = FontAwesomeKit;
 			path = FontAwesomeKit;
 			sourceTree = "<group>";
 		};
-		D030BA17B27D6154A53A0E2D31C45EDA /* Resources */ = {
+		CD6F2E4BD09A8151BCF91AB64C5073C4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				66981EC45333E7356F113D93101DEC2C /* Material-Design-Iconic-Font.ttf */,
+				79955896BA7DACD14EDDDC8D0289521E /* FontAwesome.otf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		DAE11CAA18C1474FC0178DEAB3C6F4AE /* Resources */ = {
+		DE5BAB6DEDF6419D3D7C54854E7EA2B6 /* DZNEmptyDataSet */ = {
 			isa = PBXGroup;
 			children = (
-				772F9BFC4959AF8228A5A52720AE0F44 /* foundation-icons.ttf */,
+				8DD41FF97C238170905CFBC476721753 /* UIScrollView+EmptyDataSet.h */,
+				8173D6CD247A26262FB6F1D739A7783F /* UIScrollView+EmptyDataSet.m */,
+				8969497FC6AAF282406D15587AB7217E /* Support Files */,
+			);
+			name = DZNEmptyDataSet;
+			path = DZNEmptyDataSet;
+			sourceTree = "<group>";
+		};
+		E2198072415B6CBB1D3B6C9E38957C50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9298E7AF169290635DFF5C6A2E55EC79 /* libDZNEmptyDataSet.a */,
+				C7D2C550EABCBD14C433E05FAAA6AAD1 /* libFontAwesomeKit.a */,
+				4505D43935C3861A299501C545231DAB /* libLSBLEManager.a */,
+				80B6A7C4C9663DD768B808D38DCB4AF3 /* libPods-FindPet.a */,
+				DE2986F5F9C588C2D7E0CD5D60EFE72D /* libSVProgressHUD.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9B4C1EFDD8E4724FF84E2386F1D47FC /* LSBLEManager */ = {
+			isa = PBXGroup;
+			children = (
+				305051BF863A0A0E1D84D7041FA9B43D /* LSBluetoothManager.h */,
+				9609BA1041723D0087F7ED788AA85853 /* LSBluetoothManager.m */,
+				13689D91D4C722C6290A7EF8B2B6BA1F /* Support Files */,
+			);
+			name = LSBLEManager;
+			path = LSBLEManager;
+			sourceTree = "<group>";
+		};
+		EF0BB5A3C5FDF86A3E5E6967B928290D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				110DB34F6B7517E5BEBD447CC02FC9CB /* zocial-regular-webfont.ttf */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		DFC95F0E51605C7564096B5A6EB63043 /* Zocial */ = {
-			isa = PBXGroup;
-			children = (
-				A4D064DEF030AE7F069152D4F2EFCB77 /* FAKZocial.h */,
-				FA553F3DFBACDDD729CDCD9881D610F4 /* FAKZocial.m */,
-				611B3D4DDBCDCC2C18945A88CA6EB6B9 /* Resources */,
-			);
-			name = Zocial;
-			sourceTree = "<group>";
-		};
-		E08EF9F8EC21488AE4D0504453731592 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				2642BA1058BAF54261677A7F997C38F5 /* FontAwesome.otf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		E42D2363C58D6E4DD0CA0B1B921440CF /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				B9700A352D16FBBD10621905FF74C6D1 /* FAKIcon.h */,
-				5E49F1BF0C969CBFFEEF2964D6495473 /* FAKIcon.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		E6C1121BEC9B6E150B6E55A32E46BE5B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B07A20F48B0C760414CF472624FDB848 /* LSBLEManager.xcconfig */,
-				36CC4FD8767F0DD13B854CDFDDE00F68 /* LSBLEManager-dummy.m */,
-				B3DC2E6E7E6E306429FF943717BE230B /* LSBLEManager-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/LSBLEManager";
-			sourceTree = "<group>";
-		};
-		F7EF507B89DE4B705FE76B9A7E9B1FE2 /* Material */ = {
-			isa = PBXGroup;
-			children = (
-				247645A8511C23AE1B8F90666A48578B /* FAKMaterialIcons.h */,
-				A7A8EABAF9160FCF9F9504F72A604636 /* FAKMaterialIcons.m */,
-				D030BA17B27D6154A53A0E2D31C45EDA /* Resources */,
-			);
-			name = Material;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		50886DFD26D85DFCCB545D52950EFFCE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13CD4914EC22CE950A6FAD2B31929AA /* SVIndefiniteAnimatedView.h in Headers */,
+				84116583931BFF991A4FAE5D61A4EE6E /* SVProgressAnimatedView.h in Headers */,
+				A714CE1D775917FC80ABBBE27039C5A0 /* SVProgressHUD.h in Headers */,
+				033401F1A67ED30C06BA9F644845B0A1 /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		86E4ACDD0C7A0D8384B61F0C8DF4E977 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -453,25 +545,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0911D9A5B5DC99DCF61D9FE4F47BEA10 /* Pods-FindPet */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C332D500C8EAD09F9F25583286A6FF14 /* Build configuration list for PBXNativeTarget "Pods-FindPet" */;
-			buildPhases = (
-				8EDF94FCDFDA972C1552AB052A950145 /* Sources */,
-				A887F2BD5C1EA651A4F1DEB357F1D845 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2278084420B33CBAC7942ADE10D9D64E /* PBXTargetDependency */,
-				393D8F696874F54A02F5B3A642F54583 /* PBXTargetDependency */,
-				EAD01538DAF944C141079EEE00E84F03 /* PBXTargetDependency */,
-			);
-			name = "Pods-FindPet";
-			productName = "Pods-FindPet";
-			productReference = EBB9E72161D02DC228E08AFAD605C62C /* libPods-FindPet.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		33F6D83248A35D2A53E70048B67CBBB9 /* FontAwesomeKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD0612D8C3FB9AEA8F844699DCF86765 /* Build configuration list for PBXNativeTarget "FontAwesomeKit" */;
@@ -486,7 +559,7 @@
 			);
 			name = FontAwesomeKit;
 			productName = FontAwesomeKit;
-			productReference = C6680D4F75FD127285F2FC175C7E668F /* libFontAwesomeKit.a */;
+			productReference = C7D2C550EABCBD14C433E05FAAA6AAD1 /* libFontAwesomeKit.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		5437890023F30CA85DFCA260CA914D48 /* DZNEmptyDataSet */ = {
@@ -503,7 +576,44 @@
 			);
 			name = DZNEmptyDataSet;
 			productName = DZNEmptyDataSet;
-			productReference = 6AB2D2E141B3F117BD630029C03BA0C1 /* libDZNEmptyDataSet.a */;
+			productReference = 9298E7AF169290635DFF5C6A2E55EC79 /* libDZNEmptyDataSet.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5D0F80FE675E55A298120A2DD6CC3FC0 /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E79A99088FDB839C58DE26FD66B07E01 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				7BE82A983BF7EC210B8833D771C66E13 /* Sources */,
+				3D9AE0E7F8CFCD8EEAF16540B71E0005 /* Frameworks */,
+				50886DFD26D85DFCCB545D52950EFFCE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = DE2986F5F9C588C2D7E0CD5D60EFE72D /* libSVProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		95B3E9CFA96FE73F5B342D971491F8A2 /* Pods-FindPet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 235D3E31C569C3E80DF1BC808E0AA641 /* Build configuration list for PBXNativeTarget "Pods-FindPet" */;
+			buildPhases = (
+				A80D1C7989C411DD381F1F7BF7AC0456 /* Sources */,
+				02E0D157A17772ADF19D92342FB0E276 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01F7204A929127C4EF3196535ED7608A /* PBXTargetDependency */,
+				715611001B3DDDCD6D08A51F57C10075 /* PBXTargetDependency */,
+				D73D04331A380290C09C2C42B02B841E /* PBXTargetDependency */,
+				A82DFB60E773C68D1561A76DCB271F9E /* PBXTargetDependency */,
+			);
+			name = "Pods-FindPet";
+			productName = "Pods-FindPet";
+			productReference = 80B6A7C4C9663DD768B808D38DCB4AF3 /* libPods-FindPet.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		A0576695436CB184F1B271DD04B660ED /* LSBLEManager */ = {
@@ -520,7 +630,7 @@
 			);
 			name = LSBLEManager;
 			productName = LSBLEManager;
-			productReference = 33B39E76197673923A2832BEA143791C /* libLSBLEManager.a */;
+			productReference = 4505D43935C3861A299501C545231DAB /* libLSBLEManager.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -540,14 +650,15 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 4E9CD4E84DD72B81040131977325DB32 /* Products */;
+			productRefGroup = E2198072415B6CBB1D3B6C9E38957C50 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				5437890023F30CA85DFCA260CA914D48 /* DZNEmptyDataSet */,
 				33F6D83248A35D2A53E70048B67CBBB9 /* FontAwesomeKit */,
 				A0576695436CB184F1B271DD04B660ED /* LSBLEManager */,
-				0911D9A5B5DC99DCF61D9FE4F47BEA10 /* Pods-FindPet */,
+				95B3E9CFA96FE73F5B342D971491F8A2 /* Pods-FindPet */,
+				5D0F80FE675E55A298120A2DD6CC3FC0 /* SVProgressHUD */,
 			);
 		};
 /* End PBXProject section */
@@ -568,11 +679,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8EDF94FCDFDA972C1552AB052A950145 /* Sources */ = {
+		7BE82A983BF7EC210B8833D771C66E13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3BFA21D70896F0F50C3FD2F2B868DC0 /* Pods-FindPet-dummy.m in Sources */,
+				86382B17647CABB0C016509D99EFC626 /* SVIndefiniteAnimatedView.m in Sources */,
+				4C4419467473FEC65D3B883A2445C40E /* SVProgressAnimatedView.m in Sources */,
+				FC31B03F891ED3C3FB324559A69ED184 /* SVProgressHUD-dummy.m in Sources */,
+				ED6B193497B38D5CB71AE919E1C34615 /* SVProgressHUD.m in Sources */,
+				336024806FCFE11858CC6B7529268E37 /* SVRadialGradientLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +697,14 @@
 			files = (
 				E7B54ACBD8CB51596799063FD7C3CEA9 /* DZNEmptyDataSet-dummy.m in Sources */,
 				E659F4CEB5430BC17E59431CAACBB217 /* UIScrollView+EmptyDataSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80D1C7989C411DD381F1F7BF7AC0456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83BE02CEF6AEDC672DB18361B33B820A /* Pods-FindPet-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,30 +720,59 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2278084420B33CBAC7942ADE10D9D64E /* PBXTargetDependency */ = {
+		01F7204A929127C4EF3196535ED7608A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DZNEmptyDataSet;
 			target = 5437890023F30CA85DFCA260CA914D48 /* DZNEmptyDataSet */;
-			targetProxy = 7DCFFA2AF533CF5A4CD233329C271454 /* PBXContainerItemProxy */;
+			targetProxy = 259EB6D1EA27C701C4CB93316A34FBCB /* PBXContainerItemProxy */;
 		};
-		393D8F696874F54A02F5B3A642F54583 /* PBXTargetDependency */ = {
+		715611001B3DDDCD6D08A51F57C10075 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FontAwesomeKit;
 			target = 33F6D83248A35D2A53E70048B67CBBB9 /* FontAwesomeKit */;
-			targetProxy = CC7F01332ED5898D8C5D6CEA6B0C853C /* PBXContainerItemProxy */;
+			targetProxy = E60B300505ECFD817C3FF24DC72BA055 /* PBXContainerItemProxy */;
 		};
-		EAD01538DAF944C141079EEE00E84F03 /* PBXTargetDependency */ = {
+		A82DFB60E773C68D1561A76DCB271F9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 5D0F80FE675E55A298120A2DD6CC3FC0 /* SVProgressHUD */;
+			targetProxy = 8A96F6603CF12D72412046C4B3782EAA /* PBXContainerItemProxy */;
+		};
+		D73D04331A380290C09C2C42B02B841E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LSBLEManager;
 			target = A0576695436CB184F1B271DD04B660ED /* LSBLEManager */;
-			targetProxy = 49341B80AF6ECF7BCA65CE1E87FE83DF /* PBXContainerItemProxy */;
+			targetProxy = 8E7E75B3DBFBDBD1CD43E18322475120 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0C6497C14DEAE4C183C044ED80AB226E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC7A6079EA7693F1468E04C1F72C8272 /* Pods-FindPet.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 		1B13DAF8291B4EB3F0019C7B5E5769DC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6091CA39B68AE9F259151D3454695CE4 /* DZNEmptyDataSet.xcconfig */;
+			baseConfigurationReference = 3F05B0FFE3DD519207C3E0F075CCDB20 /* DZNEmptyDataSet.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -643,7 +795,7 @@
 		};
 		1C8AF00726FC36FC0DFB15085322014F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B07A20F48B0C760414CF472624FDB848 /* LSBLEManager.xcconfig */;
+			baseConfigurationReference = 65FC7ADF7B3A6BDC4DD0A7E64157BB24 /* LSBLEManager.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -666,7 +818,7 @@
 		};
 		26DF9D51D6B45F913ABAE41BA3E52CD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E08CC6DD8BB6CFC88AC238F1C2E00F3F /* FontAwesomeKit.xcconfig */;
+			baseConfigurationReference = 2ABDF07AAE86DDD3061AFBAF72AB3AF0 /* FontAwesomeKit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -676,6 +828,29 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/FontAwesomeKit/FontAwesomeKit-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		464AAFC78D86E3E2CAB7FBD087F8D75F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD66D85174DB8CA8CCA14E1635B8A028 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -727,32 +902,9 @@
 			};
 			name = Release;
 		};
-		74194BFEE9DB7F1AA7CA0337E5A71FD0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87B986D8A0B568C8D4876A4BCEE70E4B /* Pods-FindPet.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		91312F2E63C22CD2A84DBF13A217F68E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6091CA39B68AE9F259151D3454695CE4 /* DZNEmptyDataSet.xcconfig */;
+			baseConfigurationReference = 3F05B0FFE3DD519207C3E0F075CCDB20 /* DZNEmptyDataSet.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -775,7 +927,7 @@
 		};
 		B0500D4D891D8B24C6602B6D07DD0349 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B07A20F48B0C760414CF472624FDB848 /* LSBLEManager.xcconfig */;
+			baseConfigurationReference = 65FC7ADF7B3A6BDC4DD0A7E64157BB24 /* LSBLEManager.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -796,19 +948,19 @@
 			};
 			name = Debug;
 		};
-		DAE8CACB3965DFC7C677891344DFBA44 /* Debug */ = {
+		D4EDD1357A5EE01F9FCFA1DC83699DCF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC7A6079EA7693F1468E04C1F72C8272 /* Pods-FindPet.debug.xcconfig */;
+			baseConfigurationReference = 87B986D8A0B568C8D4876A4BCEE70E4B /* Pods-FindPet.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -817,7 +969,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -863,9 +1015,32 @@
 			};
 			name = Debug;
 		};
+		F5D2258BF12BB76D0B474011539E7D6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD66D85174DB8CA8CCA14E1635B8A028 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		FCD81307CFD214B5A759B4153F0CA4EB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E08CC6DD8BB6CFC88AC238F1C2E00F3F /* FontAwesomeKit.xcconfig */;
+			baseConfigurationReference = 2ABDF07AAE86DDD3061AFBAF72AB3AF0 /* FontAwesomeKit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -889,6 +1064,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		235D3E31C569C3E80DF1BC808E0AA641 /* Build configuration list for PBXNativeTarget "Pods-FindPet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C6497C14DEAE4C183C044ED80AB226E /* Debug */,
+				D4EDD1357A5EE01F9FCFA1DC83699DCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -916,11 +1100,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C332D500C8EAD09F9F25583286A6FF14 /* Build configuration list for PBXNativeTarget "Pods-FindPet" */ = {
+		E79A99088FDB839C58DE26FD66B07E01 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DAE8CACB3965DFC7C677891344DFBA44 /* Debug */,
-				74194BFEE9DB7F1AA7CA0337E5A71FD0 /* Release */,
+				464AAFC78D86E3E2CAB7FBD087F8D75F /* Debug */,
+				F5D2258BF12BB76D0B474011539E7D6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
