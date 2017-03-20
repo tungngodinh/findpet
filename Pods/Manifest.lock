@@ -22,12 +22,16 @@ PODS:
   - FontAwesomeKit/Zocial (2.2.1):
     - FontAwesomeKit/Core
   - LSBLEManager (1.0.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
   - SVProgressHUD (2.1.2)
 
 DEPENDENCIES:
   - DZNEmptyDataSet
   - FontAwesomeKit (from `https://github.com/PrideChung/FontAwesomeKit.git`)
   - LSBLEManager (~> 1.0.0)
+  - SDWebImage
   - SVProgressHUD
 
 EXTERNAL SOURCES:
@@ -43,8 +47,9 @@ SPEC CHECKSUMS:
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   FontAwesomeKit: 3614979b3dbb0ec3f7fac1bd760b91f66c31db67
   LSBLEManager: 9ea1dd592ad6c6663a7f396964170f6dc7614ae9
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
 
-PODFILE CHECKSUM: 2d30704c28a695315d1d6f7ad8f0fe6b2a6d77fc
+PODFILE CHECKSUM: ce3edf912292f2ef315989a2752c2ff02174a387
 
 COCOAPODS: 1.2.0

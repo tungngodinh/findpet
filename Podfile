@@ -6,5 +6,6 @@ target 'FindPet' do
     pod 'DZNEmptyDataSet'
     pod 'FontAwesomeKit', :git => 'https://github.com/PrideChung/FontAwesomeKit.git'
     pod 'SVProgressHUD'
+    pod 'SDWebImage'
     
 end
