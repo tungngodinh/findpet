@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FPHomeController.h
 //  FindPet
 //
 //  Created by tungnd on 3/11/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface FPHomeController : UIViewController
 
 @end
-
