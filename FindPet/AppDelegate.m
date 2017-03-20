@@ -6,6 +6,7 @@
 //  Copyright © 2017 tungnd. All rights reserved.
 //
 
+#import <FontAwesomeKit/FontAwesomeKit.h>
 
 #import "AppDelegate.h"
 
@@ -18,6 +19,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window.rootViewController = self.tabbarController;
     return YES;
 }
 
@@ -48,10 +50,32 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
-- (void)initView {
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    UINavigationController *mainNavi = [storyboard instantiateViewControllerWithIdentifier:@"FPHomeNavigationController"];
-    
+- (UITabBarController *)tabbarController {
+    if (!_tabbarController) {
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        FAKIonIcons *icon = [FAKIonIcons iosPaperOutlineIconWithSize:35];
+        CGSize iconsize = CGSizeMake(35, 35);
+        
+        UIViewController *home = [storyboard instantiateViewControllerWithIdentifier:@"FPHomeController"];
+        home.tabBarItem.image = [icon imageWithSize:iconsize];
+        
+        icon = [FAKIonIcons iosPeopleOutlineIconWithSize:35];
+        UIViewController *some = [storyboard instantiateViewControllerWithIdentifier:@"FPSomeUsersController"];
+        some.tabBarItem.image = [icon imageWithSize:iconsize];
+        
+        icon = [FAKIonIcons iosBriefcaseOutlineIconWithSize:35];
+        UIViewController *booth = [storyboard instantiateViewControllerWithIdentifier:@"FPBoothController"];
+        booth.tabBarItem.image = [icon imageWithSize:iconsize];
+        
+        icon = [FAKIonIcons iosPawOutlineIconWithSize:35];
+        UIViewController *mypet = [storyboard instantiateViewControllerWithIdentifier:@"FPMyPetsController"];
+        mypet.tabBarItem.image = [icon imageWithSize:iconsize];
+        
+        _tabbarController = [[UITabBarController alloc] init];
+        [_tabbarController setAutomaticallyAdjustsScrollViewInsets:YES];
+        [_tabbarController setViewControllers:@[home, some, booth, mypet]];
+    }
+    return _tabbarController;
 }
 
 @end
