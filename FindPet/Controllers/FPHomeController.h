@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <XLButtonBarPagerTabStripViewController.h>
 
-@interface FPHomeController : UIViewController
+
+@interface FPHomeController : XLButtonBarPagerTabStripViewController
 
 @end

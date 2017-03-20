@@ -9,11 +9,11 @@
 #import <LSBLEManager/LSBluetoothManager.h>
 
 #import "FPHomeController.h"
+#import "AppDelegate.h"
+#import "FPConstant.h"
 
-@interface FPHomeController ()<UITableViewDataSource, UITableViewDelegate>
+@interface FPHomeController ()
 
-@property (nonatomic, weak) IBOutlet UITableView *tableView;
-    
 @end
 
 @implementation FPHomeController
@@ -21,6 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self configUI];
 }
     
 
@@ -29,15 +30,48 @@
     
 }
 
-#pragma mark - UITableViewDataSource, UITableViewDelegate
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 0;
+- (void)configUI {
+    
+    self.buttonBarView.backgroundColor = FPBackgroundColor;
+    self.buttonBarView.shouldCellsFillAvailableWidth = YES;
+    self.buttonBarView.selectedBar.backgroundColor = [UIColor whiteColor];
+    self.buttonBarView.selectedBarHeight = 2;
+    self.buttonBarView.selectedBarAlignment = XLSelectedBarAlignmentCenter;
+    
+    self.changeCurrentIndexBlock = ^(XLButtonBarViewCell* oldCell, XLButtonBarViewCell *newCell, BOOL animated){
+        oldCell.label.font = [UIFont systemFontOfSize:16.0f weight:UIFontWeightLight];
+        newCell.label.font = [UIFont systemFontOfSize:16.0f weight:UIFontWeightRegular];
+        
+        [oldCell.label setTextColor:[UIColor colorWithWhite:1 alpha:0.6]];
+        [newCell.label setTextColor:[UIColor whiteColor]];
+        
+        if (animated) {
+            [UIView animateWithDuration:0.1
+                             animations:^(){
+                                 newCell.transform = CGAffineTransformMakeScale(1.0, 1.0);
+                                 oldCell.transform = CGAffineTransformMakeScale(0.8, 0.8);
+                             }
+                             completion:nil];
+        }
+        else{
+            newCell.transform = CGAffineTransformMakeScale(1.0, 1.0);
+            oldCell.transform = CGAffineTransformMakeScale(0.8, 0.8);
+        }
+    };
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return nil;
+#pragma mark - XLPagerTabStripViewControllerDelegate, XLPagerTabStripViewControllerDataSource
+
+- (NSArray *)childViewControllersForPagerTabStripViewController:(XLPagerTabStripViewController *)pagerTabStripViewController {
+    UIStoryboard *storyboard = ((AppDelegate *)[[UIApplication sharedApplication] delegate]).mainStoryBoard;
+    UIViewController *newController = [storyboard instantiateViewControllerWithIdentifier:@"FPNewController"];
+    UIViewController *topLikeController = [storyboard instantiateViewControllerWithIdentifier:@"FPTopLikeController"];
+    UIViewController *topShareController = [storyboard instantiateViewControllerWithIdentifier:@"FPTopShareController"];
+    UIViewController *petStrayController = [storyboard instantiateViewControllerWithIdentifier:@"FPPetStrayController"];
+    return @[newController, topLikeController, topShareController, petStrayController];
 }
+
+
 
 /*
 #pragma mark - Navigation

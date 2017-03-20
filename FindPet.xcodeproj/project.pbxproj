@@ -12,6 +12,10 @@
 		53417D961E7400EC00AD2337 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53417D951E7400EC00AD2337 /* CoreBluetooth.framework */; };
 		5354B2621E7F951500B7000F /* FPLeftMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5354B2611E7F951500B7000F /* FPLeftMenuController.m */; };
 		5354B2651E7FA90400B7000F /* FPMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5354B2641E7FA90400B7000F /* FPMenuCell.m */; };
+		5354B2681E7FB96F00B7000F /* FPNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5354B2671E7FB96F00B7000F /* FPNewController.m */; };
+		5354B26B1E7FB98A00B7000F /* FPTopLikeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5354B26A1E7FB98A00B7000F /* FPTopLikeController.m */; };
+		5354B26E1E7FB99A00B7000F /* FPTopShareController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5354B26D1E7FB99A00B7000F /* FPTopShareController.m */; };
+		5354B2711E7FBA3400B7000F /* FPPetStrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5354B2701E7FBA3400B7000F /* FPPetStrayController.m */; };
 		53A775251E7D366F002F1437 /* FPSomeUsersController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A775241E7D366F002F1437 /* FPSomeUsersController.m */; };
 		53A775281E7D36B6002F1437 /* FPBoothController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A775271E7D36B6002F1437 /* FPBoothController.m */; };
 		53A7752B1E7D36C4002F1437 /* FPMyPetsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A7752A1E7D36C4002F1437 /* FPMyPetsController.m */; };
@@ -36,6 +40,15 @@
 		5354B2611E7F951500B7000F /* FPLeftMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPLeftMenuController.m; sourceTree = "<group>"; };
 		5354B2631E7FA90400B7000F /* FPMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPMenuCell.h; sourceTree = "<group>"; };
 		5354B2641E7FA90400B7000F /* FPMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPMenuCell.m; sourceTree = "<group>"; };
+		5354B2661E7FB96F00B7000F /* FPNewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPNewController.h; sourceTree = "<group>"; };
+		5354B2671E7FB96F00B7000F /* FPNewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPNewController.m; sourceTree = "<group>"; };
+		5354B2691E7FB98A00B7000F /* FPTopLikeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPTopLikeController.h; sourceTree = "<group>"; };
+		5354B26A1E7FB98A00B7000F /* FPTopLikeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPTopLikeController.m; sourceTree = "<group>"; };
+		5354B26C1E7FB99A00B7000F /* FPTopShareController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPTopShareController.h; sourceTree = "<group>"; };
+		5354B26D1E7FB99A00B7000F /* FPTopShareController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPTopShareController.m; sourceTree = "<group>"; };
+		5354B26F1E7FBA3400B7000F /* FPPetStrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPPetStrayController.h; sourceTree = "<group>"; };
+		5354B2701E7FBA3400B7000F /* FPPetStrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPPetStrayController.m; sourceTree = "<group>"; };
+		5354B2721E7FD53E00B7000F /* FPConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPConstant.h; sourceTree = "<group>"; };
 		53A775231E7D366F002F1437 /* FPSomeUsersController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPSomeUsersController.h; sourceTree = "<group>"; };
 		53A775241E7D366F002F1437 /* FPSomeUsersController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPSomeUsersController.m; sourceTree = "<group>"; };
 		53A775261E7D36B6002F1437 /* FPBoothController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPBoothController.h; sourceTree = "<group>"; };
@@ -94,6 +107,14 @@
 				53A7752A1E7D36C4002F1437 /* FPMyPetsController.m */,
 				5354B2601E7F951500B7000F /* FPLeftMenuController.h */,
 				5354B2611E7F951500B7000F /* FPLeftMenuController.m */,
+				5354B2661E7FB96F00B7000F /* FPNewController.h */,
+				5354B2671E7FB96F00B7000F /* FPNewController.m */,
+				5354B2691E7FB98A00B7000F /* FPTopLikeController.h */,
+				5354B26A1E7FB98A00B7000F /* FPTopLikeController.m */,
+				5354B26C1E7FB99A00B7000F /* FPTopShareController.h */,
+				5354B26D1E7FB99A00B7000F /* FPTopShareController.m */,
+				5354B26F1E7FBA3400B7000F /* FPPetStrayController.h */,
+				5354B2701E7FBA3400B7000F /* FPPetStrayController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -154,6 +175,7 @@
 		53DF45E41E7AA0D40099E884 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				5354B2721E7FD53E00B7000F /* FPConstant.h */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -303,13 +325,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				53417D921E73EC2F00AD2337 /* FPHomeController.m in Sources */,
+				5354B26E1E7FB99A00B7000F /* FPTopShareController.m in Sources */,
 				53A7752B1E7D36C4002F1437 /* FPMyPetsController.m in Sources */,
 				53DA07211E7A6C240092563A /* FPLoginController.m in Sources */,
 				5354B2621E7F951500B7000F /* FPLeftMenuController.m in Sources */,
 				53A775281E7D36B6002F1437 /* FPBoothController.m in Sources */,
 				53A775251E7D366F002F1437 /* FPSomeUsersController.m in Sources */,
 				53AEBFC41E73E5970089E674 /* AppDelegate.m in Sources */,
+				5354B2711E7FBA3400B7000F /* FPPetStrayController.m in Sources */,
+				5354B26B1E7FB98A00B7000F /* FPTopLikeController.m in Sources */,
 				53AEBFC11E73E5970089E674 /* main.m in Sources */,
+				5354B2681E7FB96F00B7000F /* FPNewController.m in Sources */,
 				5354B2651E7FA90400B7000F /* FPMenuCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

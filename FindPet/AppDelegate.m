@@ -9,10 +9,9 @@
 #import <FontAwesomeKit/FontAwesomeKit.h>
 
 #import "AppDelegate.h"
+#import "FPConstant.h"
 
 @interface AppDelegate ()
-
-@property (nonatomic, strong) UIStoryboard *mainStoryBoard;
 
 @end
 
@@ -21,6 +20,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     self.window.rootViewController = self.drawerController;
+    
+    [[UINavigationBar appearance] setBarTintColor:FPBackgroundColor];
+    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName: [UIColor whiteColor]}];
+    
     return YES;
 }
 
@@ -56,7 +59,7 @@
         FAKIonIcons *icon = [FAKIonIcons iosPaperOutlineIconWithSize:35];
         CGSize iconsize = CGSizeMake(35, 35);
         
-        UIViewController *home = [self.mainStoryBoard instantiateViewControllerWithIdentifier:@"FPHomeController"];
+        UINavigationController *home = [self.mainStoryBoard instantiateViewControllerWithIdentifier:@"FPHomeNavigationController"];
         home.tabBarItem.image = [icon imageWithSize:iconsize];
         
         icon = [FAKIonIcons iosPeopleOutlineIconWithSize:35];

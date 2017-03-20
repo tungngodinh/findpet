@@ -11,6 +11,6 @@ target 'FindPet' do
     pod 'SDWebImage'
     pod 'SVProgressHUD'
     pod 'SVPullToRefresh'
-    pod 'RKTabView'
+    pod 'XLPagerTabStrip', '~> 3.0'
     
 end
