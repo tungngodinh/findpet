@@ -22,6 +22,7 @@
     self.window.rootViewController = self.drawerController;
     
     [[UINavigationBar appearance] setBarTintColor:FPBackgroundColor];
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
     [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName: [UIColor whiteColor]}];
     
     return YES;
