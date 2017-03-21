@@ -55,6 +55,10 @@
     cell.nameLabel.text = @"Không gì là không thể";
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [self performSegueWithIdentifier:@"showPetProfileSegue" sender:self];
+}
+
 /*
 #pragma mark - Navigation
 

@@ -17,6 +17,10 @@
 		532BC9D11E811D83004CF413 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 532BC9CD1E811D83004CF413 /* FBSDKCoreKit.framework */; };
 		532BC9D21E811D83004CF413 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 532BC9CE1E811D83004CF413 /* FBSDKLoginKit.framework */; };
 		532BC9D31E811D83004CF413 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 532BC9CF1E811D83004CF413 /* FBSDKShareKit.framework */; };
+		532BC9D61E812ED7004CF413 /* FPPetProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = 532BC9D51E812ED7004CF413 /* FPPetProfileController.m */; };
+		532BC9D91E8147EC004CF413 /* FPPetInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 532BC9D81E8147EC004CF413 /* FPPetInfoController.m */; };
+		532BC9DC1E8147FF004CF413 /* FPPetImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 532BC9DB1E8147FF004CF413 /* FPPetImageController.m */; };
+		532BC9DF1E814814004CF413 /* FPPetContactController.m in Sources */ = {isa = PBXBuildFile; fileRef = 532BC9DE1E814814004CF413 /* FPPetContactController.m */; };
 		53417D921E73EC2F00AD2337 /* FPHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53417D911E73EC2F00AD2337 /* FPHomeController.m */; };
 		53417D941E73F99D00AD2337 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53417D931E73F99D00AD2337 /* UIKit.framework */; };
 		53417D961E7400EC00AD2337 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53417D951E7400EC00AD2337 /* CoreBluetooth.framework */; };
@@ -55,6 +59,14 @@
 		532BC9CD1E811D83004CF413 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		532BC9CE1E811D83004CF413 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		532BC9CF1E811D83004CF413 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		532BC9D41E812ED7004CF413 /* FPPetProfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPPetProfileController.h; sourceTree = "<group>"; };
+		532BC9D51E812ED7004CF413 /* FPPetProfileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPPetProfileController.m; sourceTree = "<group>"; };
+		532BC9D71E8147EC004CF413 /* FPPetInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPPetInfoController.h; sourceTree = "<group>"; };
+		532BC9D81E8147EC004CF413 /* FPPetInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPPetInfoController.m; sourceTree = "<group>"; };
+		532BC9DA1E8147FF004CF413 /* FPPetImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPPetImageController.h; sourceTree = "<group>"; };
+		532BC9DB1E8147FF004CF413 /* FPPetImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPPetImageController.m; sourceTree = "<group>"; };
+		532BC9DD1E814814004CF413 /* FPPetContactController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPPetContactController.h; sourceTree = "<group>"; };
+		532BC9DE1E814814004CF413 /* FPPetContactController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPPetContactController.m; sourceTree = "<group>"; };
 		53417D901E73EC2F00AD2337 /* FPHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPHomeController.h; sourceTree = "<group>"; };
 		53417D911E73EC2F00AD2337 /* FPHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPHomeController.m; sourceTree = "<group>"; };
 		53417D931E73F99D00AD2337 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -153,6 +165,14 @@
 				532BC9981E80EC59004CF413 /* FPListPetController.m */,
 				532BC9A11E810A7E004CF413 /* FPScanBluetoothController.h */,
 				532BC9A21E810A7E004CF413 /* FPScanBluetoothController.m */,
+				532BC9D41E812ED7004CF413 /* FPPetProfileController.h */,
+				532BC9D51E812ED7004CF413 /* FPPetProfileController.m */,
+				532BC9D71E8147EC004CF413 /* FPPetInfoController.h */,
+				532BC9D81E8147EC004CF413 /* FPPetInfoController.m */,
+				532BC9DA1E8147FF004CF413 /* FPPetImageController.h */,
+				532BC9DB1E8147FF004CF413 /* FPPetImageController.m */,
+				532BC9DD1E814814004CF413 /* FPPetContactController.h */,
+				532BC9DE1E814814004CF413 /* FPPetContactController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -373,11 +393,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				53417D921E73EC2F00AD2337 /* FPHomeController.m in Sources */,
+				532BC9D61E812ED7004CF413 /* FPPetProfileController.m in Sources */,
 				5354B26E1E7FB99A00B7000F /* FPTopShareController.m in Sources */,
 				53A7752B1E7D36C4002F1437 /* FPMyPetsController.m in Sources */,
 				53DA07211E7A6C240092563A /* FPLoginController.m in Sources */,
 				532BC9A31E810A7E004CF413 /* FPScanBluetoothController.m in Sources */,
 				5354B2621E7F951500B7000F /* FPLeftMenuController.m in Sources */,
+				532BC9DC1E8147FF004CF413 /* FPPetImageController.m in Sources */,
 				532BC99D1E80FBE8004CF413 /* FPPetCell.m in Sources */,
 				53A775281E7D36B6002F1437 /* FPBoothController.m in Sources */,
 				53A775251E7D366F002F1437 /* FPSomeUsersController.m in Sources */,
@@ -387,8 +409,10 @@
 				53AEBFC11E73E5970089E674 /* main.m in Sources */,
 				532BC9991E80EC59004CF413 /* FPListPetController.m in Sources */,
 				5354B2681E7FB96F00B7000F /* FPNewController.m in Sources */,
+				532BC9DF1E814814004CF413 /* FPPetContactController.m in Sources */,
 				5354B2751E7FDC9200B7000F /* FPNewCell.m in Sources */,
 				5354B2651E7FA90400B7000F /* FPMenuCell.m in Sources */,
+				532BC9D91E8147EC004CF413 /* FPPetInfoController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
