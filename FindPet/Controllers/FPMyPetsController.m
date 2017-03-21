@@ -88,7 +88,11 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     switch (indexPath.row) {
         case 0: {
-            [self performSegueWithIdentifier:@"showListPetSegue" sender:nil];
+            [self performSegueWithIdentifier:@"showListPetSegue" sender:self];
+            break;
+        }
+        case 1: {
+            [self performSegueWithIdentifier:@"showScanBluetoothSegue" sender:self];
             break;
         }
         default:
