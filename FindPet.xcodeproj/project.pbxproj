@@ -12,6 +12,7 @@
 		532BC99D1E80FBE8004CF413 /* FPPetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 532BC99B1E80FBE8004CF413 /* FPPetCell.m */; };
 		532BC99E1E80FBE8004CF413 /* FPPetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 532BC99C1E80FBE8004CF413 /* FPPetCell.xib */; };
 		532BC9A01E81084F004CF413 /* PetStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 532BC99F1E81084F004CF413 /* PetStoryboard.storyboard */; };
+		532BC9A31E810A7E004CF413 /* FPScanBluetoothController.m in Sources */ = {isa = PBXBuildFile; fileRef = 532BC9A21E810A7E004CF413 /* FPScanBluetoothController.m */; };
 		53417D921E73EC2F00AD2337 /* FPHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53417D911E73EC2F00AD2337 /* FPHomeController.m */; };
 		53417D941E73F99D00AD2337 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53417D931E73F99D00AD2337 /* UIKit.framework */; };
 		53417D961E7400EC00AD2337 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53417D951E7400EC00AD2337 /* CoreBluetooth.framework */; };
@@ -44,6 +45,8 @@
 		532BC99B1E80FBE8004CF413 /* FPPetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPPetCell.m; sourceTree = "<group>"; };
 		532BC99C1E80FBE8004CF413 /* FPPetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FPPetCell.xib; sourceTree = "<group>"; };
 		532BC99F1E81084F004CF413 /* PetStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PetStoryboard.storyboard; sourceTree = "<group>"; };
+		532BC9A11E810A7E004CF413 /* FPScanBluetoothController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPScanBluetoothController.h; sourceTree = "<group>"; };
+		532BC9A21E810A7E004CF413 /* FPScanBluetoothController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPScanBluetoothController.m; sourceTree = "<group>"; };
 		53417D901E73EC2F00AD2337 /* FPHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPHomeController.h; sourceTree = "<group>"; };
 		53417D911E73EC2F00AD2337 /* FPHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPHomeController.m; sourceTree = "<group>"; };
 		53417D931E73F99D00AD2337 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -132,6 +135,8 @@
 				5354B2701E7FBA3400B7000F /* FPPetStrayController.m */,
 				532BC9971E80EC59004CF413 /* FPListPetController.h */,
 				532BC9981E80EC59004CF413 /* FPListPetController.m */,
+				532BC9A11E810A7E004CF413 /* FPScanBluetoothController.h */,
+				532BC9A21E810A7E004CF413 /* FPScanBluetoothController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -355,6 +360,7 @@
 				5354B26E1E7FB99A00B7000F /* FPTopShareController.m in Sources */,
 				53A7752B1E7D36C4002F1437 /* FPMyPetsController.m in Sources */,
 				53DA07211E7A6C240092563A /* FPLoginController.m in Sources */,
+				532BC9A31E810A7E004CF413 /* FPScanBluetoothController.m in Sources */,
 				5354B2621E7F951500B7000F /* FPLeftMenuController.m in Sources */,
 				532BC99D1E80FBE8004CF413 /* FPPetCell.m in Sources */,
 				53A775281E7D36B6002F1437 /* FPBoothController.m in Sources */,
