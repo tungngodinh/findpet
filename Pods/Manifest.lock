@@ -50,6 +50,9 @@ PODS:
     - MMDrawerController/Core
   - MMDrawerController/Subclass (0.6.0):
     - MMDrawerController/Core
+  - Realm (2.4.4):
+    - Realm/Headers (= 2.4.4)
+  - Realm/Headers (2.4.4)
   - SDWebImage (4.0.0):
     - SDWebImage/Core (= 4.0.0)
   - SDWebImage/Core (4.0.0)
@@ -65,6 +68,7 @@ DEPENDENCIES:
   - LSBLEManager (~> 1.0.0)
   - Masonry
   - MMDrawerController
+  - Realm
   - SDWebImage
   - SVProgressHUD
   - SVPullToRefresh
@@ -87,12 +91,13 @@ SPEC CHECKSUMS:
   LSBLEManager: 9ea1dd592ad6c6663a7f396964170f6dc7614ae9
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MMDrawerController: e3a54a5570388463ad3b36975251575b50c4e1a0
+  Realm: 5a280a1f5a9a3c267bebf4f41ee47911137703d7
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
   SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
   UITextView+Placeholder: 77680995fcdd07c3f52ec92fe1150874a2ac89ff
   XLPagerTabStrip: 0f9f94246c84e7cb60a06ca435da68ac75c8b56e
 
-PODFILE CHECKSUM: 39b2028cd85a3ebe73d68f1b84047ea021d77294
+PODFILE CHECKSUM: a7991f63995181da215264c6a0a267cf2073732a
 
 COCOAPODS: 1.2.0
