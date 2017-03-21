@@ -64,15 +64,18 @@
         home.tabBarItem.image = [icon imageWithSize:iconsize];
         
         icon = [FAKIonIcons iosPeopleOutlineIconWithSize:25];
-        UIViewController *some = [self.mainStoryBoard instantiateViewControllerWithIdentifier:@"FPSomeUsersController"];
+        UINavigationController *some = [[UINavigationController alloc] initWithRootViewController:[self.mainStoryBoard instantiateViewControllerWithIdentifier:@"FPSomeUsersController"]];
         some.tabBarItem.image = [icon imageWithSize:iconsize];
         
         icon = [FAKIonIcons iosBriefcaseOutlineIconWithSize:25];
-        UIViewController *booth = [self.mainStoryBoard instantiateViewControllerWithIdentifier:@"FPBoothController"];
+        UINavigationController *booth = [[UINavigationController alloc] initWithRootViewController:[self.mainStoryBoard instantiateViewControllerWithIdentifier:@"FPBoothController"]];
         booth.tabBarItem.image = [icon imageWithSize:iconsize];
         
         icon = [FAKIonIcons iosPawOutlineIconWithSize:25];
-        UIViewController *mypet = [self.mainStoryBoard instantiateViewControllerWithIdentifier:@"FPMyPetsController"];
+        
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"PetStoryboard" bundle:nil];
+        UINavigationController *mypet = [storyboard instantiateInitialViewController];
+        
         mypet.tabBarItem.image = [icon imageWithSize:iconsize];
         
         _tabbarController = [[UITabBarController alloc] init];

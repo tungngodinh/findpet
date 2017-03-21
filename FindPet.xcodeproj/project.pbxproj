@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		532BC9941E80D534004CF413 /* FPMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 532BC9931E80D534004CF413 /* FPMenuCell.xib */; };
+		532BC9991E80EC59004CF413 /* FPListPetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 532BC9981E80EC59004CF413 /* FPListPetController.m */; };
+		532BC99D1E80FBE8004CF413 /* FPPetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 532BC99B1E80FBE8004CF413 /* FPPetCell.m */; };
+		532BC99E1E80FBE8004CF413 /* FPPetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 532BC99C1E80FBE8004CF413 /* FPPetCell.xib */; };
+		532BC9A01E81084F004CF413 /* PetStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 532BC99F1E81084F004CF413 /* PetStoryboard.storyboard */; };
 		53417D921E73EC2F00AD2337 /* FPHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53417D911E73EC2F00AD2337 /* FPHomeController.m */; };
 		53417D941E73F99D00AD2337 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53417D931E73F99D00AD2337 /* UIKit.framework */; };
 		53417D961E7400EC00AD2337 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53417D951E7400EC00AD2337 /* CoreBluetooth.framework */; };
@@ -32,6 +37,13 @@
 /* Begin PBXFileReference section */
 		28C2D760061AE42FB0F38A0A /* Pods-FindPet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindPet.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindPet/Pods-FindPet.release.xcconfig"; sourceTree = "<group>"; };
 		4192BD175514A3B34B2E07B1 /* Pods-FindPet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindPet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindPet/Pods-FindPet.debug.xcconfig"; sourceTree = "<group>"; };
+		532BC9931E80D534004CF413 /* FPMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FPMenuCell.xib; sourceTree = "<group>"; };
+		532BC9971E80EC59004CF413 /* FPListPetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPListPetController.h; sourceTree = "<group>"; };
+		532BC9981E80EC59004CF413 /* FPListPetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPListPetController.m; sourceTree = "<group>"; };
+		532BC99A1E80FBE8004CF413 /* FPPetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPPetCell.h; sourceTree = "<group>"; };
+		532BC99B1E80FBE8004CF413 /* FPPetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPPetCell.m; sourceTree = "<group>"; };
+		532BC99C1E80FBE8004CF413 /* FPPetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FPPetCell.xib; sourceTree = "<group>"; };
+		532BC99F1E81084F004CF413 /* PetStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PetStoryboard.storyboard; sourceTree = "<group>"; };
 		53417D901E73EC2F00AD2337 /* FPHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPHomeController.h; sourceTree = "<group>"; };
 		53417D911E73EC2F00AD2337 /* FPHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPHomeController.m; sourceTree = "<group>"; };
 		53417D931E73F99D00AD2337 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -118,6 +130,8 @@
 				5354B26D1E7FB99A00B7000F /* FPTopShareController.m */,
 				5354B26F1E7FBA3400B7000F /* FPPetStrayController.h */,
 				5354B2701E7FBA3400B7000F /* FPPetStrayController.m */,
+				532BC9971E80EC59004CF413 /* FPListPetController.h */,
+				532BC9981E80EC59004CF413 /* FPListPetController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -127,8 +141,12 @@
 			children = (
 				5354B2631E7FA90400B7000F /* FPMenuCell.h */,
 				5354B2641E7FA90400B7000F /* FPMenuCell.m */,
+				532BC9931E80D534004CF413 /* FPMenuCell.xib */,
 				5354B2731E7FDC9200B7000F /* FPNewCell.h */,
 				5354B2741E7FDC9200B7000F /* FPNewCell.m */,
+				532BC99A1E80FBE8004CF413 /* FPPetCell.h */,
+				532BC99B1E80FBE8004CF413 /* FPPetCell.m */,
+				532BC99C1E80FBE8004CF413 /* FPPetCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -157,7 +175,6 @@
 				53417D971E7400FA00AD2337 /* FindPet.entitlements */,
 				53AEBFC21E73E5970089E674 /* AppDelegate.h */,
 				53AEBFC31E73E5970089E674 /* AppDelegate.m */,
-				53AEBFC81E73E5970089E674 /* Main.storyboard */,
 				53AEBFCB1E73E5970089E674 /* Assets.xcassets */,
 				53AEBFCD1E73E5970089E674 /* LaunchScreen.storyboard */,
 				53AEBFD01E73E5970089E674 /* Info.plist */,
@@ -165,6 +182,8 @@
 				53DF45E41E7AA0D40099E884 /* Helpers */,
 				53417D8B1E73EB6100AD2337 /* Controllers */,
 				53AEBFBF1E73E5970089E674 /* Supporting Files */,
+				53AEBFC81E73E5970089E674 /* Main.storyboard */,
+				532BC99F1E81084F004CF413 /* PetStoryboard.storyboard */,
 			);
 			path = FindPet;
 			sourceTree = "<group>";
@@ -268,8 +287,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				532BC99E1E80FBE8004CF413 /* FPPetCell.xib in Resources */,
+				532BC9A01E81084F004CF413 /* PetStoryboard.storyboard in Resources */,
 				53AEBFCF1E73E5970089E674 /* LaunchScreen.storyboard in Resources */,
 				53AEBFCC1E73E5970089E674 /* Assets.xcassets in Resources */,
+				532BC9941E80D534004CF413 /* FPMenuCell.xib in Resources */,
 				53AEBFCA1E73E5970089E674 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,12 +356,14 @@
 				53A7752B1E7D36C4002F1437 /* FPMyPetsController.m in Sources */,
 				53DA07211E7A6C240092563A /* FPLoginController.m in Sources */,
 				5354B2621E7F951500B7000F /* FPLeftMenuController.m in Sources */,
+				532BC99D1E80FBE8004CF413 /* FPPetCell.m in Sources */,
 				53A775281E7D36B6002F1437 /* FPBoothController.m in Sources */,
 				53A775251E7D366F002F1437 /* FPSomeUsersController.m in Sources */,
 				53AEBFC41E73E5970089E674 /* AppDelegate.m in Sources */,
 				5354B2711E7FBA3400B7000F /* FPPetStrayController.m in Sources */,
 				5354B26B1E7FB98A00B7000F /* FPTopLikeController.m in Sources */,
 				53AEBFC11E73E5970089E674 /* main.m in Sources */,
+				532BC9991E80EC59004CF413 /* FPListPetController.m in Sources */,
 				5354B2681E7FB96F00B7000F /* FPNewController.m in Sources */,
 				5354B2751E7FDC9200B7000F /* FPNewCell.m in Sources */,
 				5354B2651E7FA90400B7000F /* FPMenuCell.m in Sources */,

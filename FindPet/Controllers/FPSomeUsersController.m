@@ -19,9 +19,17 @@
     // Do any additional setup after loading the view.
 }
 
+- (void)configUI {
+    self.title = @"Người dùng quanh đây";
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    return UIStatusBarStyleLightContent;
 }
 
 /*

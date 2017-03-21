@@ -32,6 +32,10 @@
     
 }
 
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    return UIStatusBarStyleLightContent;
+}
+
 - (void)configUI {
     
     self.title = @"Tin tức";

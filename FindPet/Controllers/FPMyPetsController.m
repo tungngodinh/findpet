@@ -6,9 +6,14 @@
 //  Copyright © 2017 tungnd. All rights reserved.
 //
 
-#import "FPMyPetsController.h"
+#import <FontAwesomeKit/FontAwesomeKit.h>
 
-@interface FPMyPetsController ()
+#import "FPMyPetsController.h"
+#import "FPMenuCell.h"
+
+@interface FPMyPetsController ()<UITableViewDataSource, UITableViewDelegate>
+
+@property (nonatomic, weak) IBOutlet UITableView *tableView;
 
 @end
 
@@ -16,12 +21,79 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    [self configUI];
+}
+
+- (void)configUI {
+    self.title = @"PET của tôi";
+    
+    self.tableView.tableFooterView = [UIView new];
+    [self.tableView registerNib:[UINib nibWithNibName:kFPMenuCellIdentifier bundle:nil] forCellReuseIdentifier:kFPMenuCellIdentifier];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - UITableViewDataSource, UITableViewDelegate
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 4;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 50.0f;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    FPMenuCell *cell = [tableView dequeueReusableCellWithIdentifier:kFPMenuCellIdentifier forIndexPath:indexPath];
+    [self configCell:cell forIndexPath:indexPath];
+    return cell;
+}
+
+- (void)configCell:(FPMenuCell *)cell forIndexPath:(NSIndexPath *)indexPath {
+    FAKIcon *icon;
+    NSString *title;
+    switch (indexPath.row) {
+        case 0: {
+            title = @"Danh mục pet";
+            icon = [FAKIonIcons iosPawOutlineIconWithSize:25];
+            break;
+        }
+        case 1: {
+            title = @"Quét Bluetooth";
+            icon = [FAKIonIcons bluetoothIconWithSize:25];
+            break;
+        }
+        case 2: {
+            title = @"Quét QR Code";
+            icon = [FAKIonIcons iosBarcodeOutlineIconWithSize:25];
+            break;
+        }
+        case 3: {
+            title = @"Bản đồ 5PET";
+            icon = [FAKIonIcons iosLocationOutlineIconWithSize:25];
+            break;
+        }
+        default:
+            break;
+    }
+    [icon setAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
+    cell.image.image = [icon imageWithSize:CGSizeMake(25, 25)];
+    cell.label.text = title;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    switch (indexPath.row) {
+        case 0: {
+            [self performSegueWithIdentifier:@"showListPetSegue" sender:nil];
+            break;
+        }
+        default:
+            break;
+    }
 }
 
 /*
