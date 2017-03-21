@@ -8,15 +8,16 @@
 
 #import <XLPagerTabStrip/XLPagerTabStripViewController.h>
 #import <Masonry/Masonry.h>
+#import <UITextView+Placeholder/UITextView+Placeholder.h>
 
 #import "FPNewController.h"
 #import "FPNewCell.h"
+#import "FPConstant.h"
 
 @interface FPNewController ()<XLPagerTabStripChildItem, UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic, weak) IBOutlet UITableView *tableView;
-@property (nonatomic, strong) UIView *hearderView;
-@property (nonatomic, strong) UITextView *textView;
+@property (nonatomic, weak) IBOutlet UITextView *textView;
 
 @end
 
@@ -27,6 +28,8 @@
     
     self.tableView.estimatedRowHeight = 120.0f;
     self.tableView.rowHeight = UITableViewAutomaticDimension;
+    self.textView.placeholder = @"Bạn muốn chia sẻ gì?...";
+    self.textView.placeholderColor = FPBackgroundColor;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -65,24 +68,6 @@
     cell.numberCommentLabel.text = @"2";
     cell.numberShareLabel.text = @"1";
 }
-
-- (UIView *)hearderView {
-    if (!_hearderView) {
-        _hearderView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.frame), 50)];
-    }
-    return _hearderView;
-}
-
-- (UITextView *)textView {
-    if (!_textView) {
-        _textView = [[UITextView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.frame), 50)];
-        
-        [self.hearderView addSubview:_textView];
-    }
-    
-    return _textView;
-}
-
 
 /*
 #pragma mark - Navigation
