@@ -9,6 +9,7 @@ target 'FindPet' do
     pod 'LSBLEManager', '~> 1.0.0'
     pod 'FontAwesomeKit', :git => 'https://github.com/PrideChung/FontAwesomeKit.git'
     pod 'SDWebImage'
+    pod 'STPopup'
     pod 'SVProgressHUD'
     pod 'SVPullToRefresh'
     pod 'XLPagerTabStrip', '~> 3.0'

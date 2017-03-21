@@ -56,6 +56,7 @@ PODS:
   - SDWebImage (4.0.0):
     - SDWebImage/Core (= 4.0.0)
   - SDWebImage/Core (4.0.0)
+  - STPopup (1.8.2)
   - SVProgressHUD (2.1.2)
   - SVPullToRefresh (0.4.1)
   - UITextView+Placeholder (1.2.0)
@@ -70,6 +71,7 @@ DEPENDENCIES:
   - MMDrawerController
   - Realm
   - SDWebImage
+  - STPopup
   - SVProgressHUD
   - SVPullToRefresh
   - UITextView+Placeholder (~> 1.2)
@@ -93,11 +95,12 @@ SPEC CHECKSUMS:
   MMDrawerController: e3a54a5570388463ad3b36975251575b50c4e1a0
   Realm: 5a280a1f5a9a3c267bebf4f41ee47911137703d7
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  STPopup: b69b3e7484ef7d2baec5f9ab2939f8a7bcdfe218
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
   SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
   UITextView+Placeholder: 77680995fcdd07c3f52ec92fe1150874a2ac89ff
   XLPagerTabStrip: 0f9f94246c84e7cb60a06ca435da68ac75c8b56e
 
-PODFILE CHECKSUM: a7991f63995181da215264c6a0a267cf2073732a
+PODFILE CHECKSUM: 997fa6ee3ea2133da5e3df5a7cf6a0c4ac08f4d9
 
 COCOAPODS: 1.2.0
