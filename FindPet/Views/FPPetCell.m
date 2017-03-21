@@ -17,13 +17,13 @@
     [super awakeFromNib];
     
     self.pictureImage.layer.borderColor = FPBackgroundColor.CGColor;
-    FAKIonIcons *icon = [FAKIonIcons iosLocationOutlineIconWithSize:20];
+    FAKIonIcons *icon = [FAKIonIcons iosLocationIconWithSize:25];
     [icon setAttributes:@{NSForegroundColorAttributeName:FPBackgroundColor}];
-    self.locationImage.image = [icon imageWithSize:CGSizeMake(20, 20)];
+    self.locationImage.image = [icon imageWithSize:CGSizeMake(25, 25)];
     
-    icon = [FAKIonIcons iosPawIconWithSize:20];
+    icon = [FAKIonIcons iosPawIconWithSize:25];
     [icon setAttributes:@{NSForegroundColorAttributeName:FPBackgroundColor}];
-    self.pawImage.image = [icon imageWithSize:CGSizeMake(20, 20)];
+    self.pawImage.image = [icon imageWithSize:CGSizeMake(25, 25)];
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
