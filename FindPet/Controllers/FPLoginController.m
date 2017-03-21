@@ -7,6 +7,8 @@
 //
 
 #import <FontAwesomeKit/FontAwesomeKit.h>
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
 
 #import "FPLoginController.h"
 
@@ -72,6 +74,19 @@
     self.instagramButton.layer.borderColor = [UIColor whiteColor].CGColor;
     self.instagramButton.layer.masksToBounds = YES;
 
+}
+
+- (IBAction)onLoginWithFBButtonTapped:(UIButton *)sender {
+    FBSDKLoginManager *fbLogin = [[FBSDKLoginManager alloc] init];
+    [fbLogin logInWithReadPermissions:@[@"public_profile"] fromViewController:self handler:^(FBSDKLoginManagerLoginResult *result, NSError *error) {
+        if (error) {
+            
+        } else if(result.isCancelled) {
+        
+        } else {
+            NSLog(@"%@",result.token.tokenString);
+        }
+    }];
 }
 
 /*
